@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>2021 ISB Virtual Microbiome Course - day 1</title>
+
+	<link rel="stylesheet" href="reveal/dist/reveal.css">
+	<link rel="stylesheet" href="assets/css/isb.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="assets/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+
+	<style>
+		.reveal .slides {
+			text-align: left;
+			/* comment for centered */
+		}
+
+		div .footnote {
+			font-size: 50%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<div class="sidebar">
+			<a class="logo" href="https://isbscience.org"></a></div>
+			<section data-markdown="talk.md" id="markdown" data-separator-vertical="^\n----\n"
+				data-separator-notes="^Note:"></section>
+		</div>
+	</div>
+
+	<script src="reveal/dist/reveal.js"></script>
+	<script src="reveal/plugin/notes/notes.js"></script>
+	<script src="reveal/plugin/markdown/markdown.js"></script>
+	<script src="reveal/plugin/highlight/highlight.js"></script>
+	<script src="reveal/plugin/math/math.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			width: 1600,
+			height: 900,
+			minScale: 0.2,
+  			maxScale: 5.0,
+			backgroundTransition: 'slide',
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+			},
+			markdown: {
+				smartypants: true
+			},
+			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ],
+			dependencies: [{ src: 'reveal/plugin/toolbar/toolbar.js', async: true }],
+			toolbar: {
+				position: 'top',
+				fullscreen: true,
+				overview: false,
+				pause: true,
+				notes: false,
+				help: true,
+				captureMenu: false,
+				capturePlaybackControl: false,
+				loadIcons: false
+		}
+		});
+
+		emojione.imageType = 'svg';
+		emojione.ascii = true;
+
+		Reveal.addEventListener('ready', function (event) {
+			var current = event.currentSlide;
+			document.querySelector("div.reveal.slide").classList.remove("dark");
+			if (current.classList.contains("dark")) {
+				document.querySelector("div.reveal.slide").classList.add("has-dark-background");
+				document.querySelector("div.reveal.slide").classList.add("dark");
+			}
+		});
+
+		Reveal.addEventListener('slidechanged', function (event) {
+			var current = event.currentSlide;
+			window.MathJax.Hub.Rerender(current);
+			current.innerHTML = emojione.toImage(current.innerHTML);
+			document.querySelector("div.reveal.slide").classList.remove("dark");
+			if (current.classList.contains("dark")) {
+				document.querySelector("div.reveal.slide").classList.add("has-dark-background");
+				document.querySelector("div.reveal.slide").classList.add("dark");
+			}
+		});
+
+		var sidebar = document.getElementsByClassName("sidebar")[0];
+		if (window.location.search.match(/print-pdf/gi)) {
+			Reveal.addEventListener('ready', function (event) {
+				var backgrounds = document.querySelectorAll(".slide-background");
+				Array.from(backgrounds).forEach(
+					function (el) { el.innerHTML += sidebar.outerHTML; });
+				var sections = document.querySelectorAll("section");
+				Array.from(sections).forEach(
+					function (el) { el.innerHTML = emojione.toImage(el.innerHTML); });
+			});
+		} else {
+			document.querySelector("div.reveal").appendChild(sidebar);
+		}
+	</script>
+</body>
+
+</html>
