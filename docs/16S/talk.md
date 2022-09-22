@@ -6,7 +6,7 @@
 
 <img src="assets/isb/logo.png" width="40%">
 
-from the *2021 ISB Virtual Microbiome Series*
+from the *2022 ISB Virtual Microbiome Series*
 
 <br>
 <div class="footer">
@@ -24,7 +24,7 @@ from the *2021 ISB Virtual Microbiome Series*
 
 Let's get the slides first (use your computer, phone, TV, fridge, anything with a 16:9 screen)
 
-*https://gibbons-lab.github.io/isb_course_2021/16S*
+*https://gibbons-lab.github.io/isb_course_2022/16S*
 
 ---
 
@@ -44,7 +44,7 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 <br>
 
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2021/blob/main/16S.ipynb"
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2022/blob/main/16S.ipynb"
    target="_blank">Click me to open the notebook!</a>
 
 ---
@@ -55,7 +55,7 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 *All* output we generate can be found in the `treasure_chest` folder at
 
-https://github.com/gibbons-lab/isb_course_2021
+https://github.com/gibbons-lab/isb_course_2022
 
 or `materials/treasure_chest` in the Colaboratory notebook.
 
