@@ -122,7 +122,7 @@ into *actions* to either produce other artifacts or *visualizations*.
 
 <div class="footnote">
 
-https://docs.qiime2.org/2021.8/tutorials/overview/
+https://docs.qiime2.org/2022.8/tutorials/overview/
 
 </div>
 
@@ -150,44 +150,32 @@ The 16S gene is *universal* and contains interspersed conserved regions perfect 
 
 ---
 
-<!-- .slide: data-background="assets/birds_eye_nathan_jennings.jpg" class="dark" -->
+<!-- .slide: data-background="assets/hu-chen-tanzania.jpg" class="dark" -->
 
-# The Earth Microbiome Project
+# Our study data
 
 <div style="height: 60vh"></div>
 
 <div class="footnote">
 
-Photo by Nathan Jennings.
+Photo by Hu Chen.
 
 </div>
 
 ---
 
-### A communal catalogue reveals Earth’s multiscale microbial diversity
+## Who are we studying?
 
-<img src="assets/emp_fig1.webp" width="70%">
+<img src="assets/sample_sources.png" width="80%">
 
-<div class="footnote">
-
-https://doi.org/10.1038/nature24621
-
-</div>
-
----
-
-## Our samples
-
-<img src="assets/sample_sources.png" width="100%">
-
-- 15 samples from 5 environments
-- honey bee gut, cenotes in Yucatan (freshwater), ocean, human gut, soil
+- 9 samples from 3 native populations
+- Hadza in Tanzania, Me'Phaa in Mexico, and Chepang in Nepal
 
 <br><br><br>
 
 <div class="footnote">
 
-Photos by Dmitry Grigoriev, Jared Rice, Matt Hardy, Alex Block, and Roman Synkevich.
+Photos by Ben Preater, Giuseppe Mondi, Daniel Apodaca.
 
 </div>
 
