@@ -1,0 +1,10 @@
+id	forward-absolute-filepath	reverse-absolute-filepath
+hadza1	$PWD/data/hadza1_L001_R1_001.fastq.gz	$PWD/data/hadza1_L001_R2_001.fastq.gz
+hadza2	$PWD/data/hadza2_L001_R1_001.fastq.gz	$PWD/data/hadza2_L001_R2_001.fastq.gz
+hadza3	$PWD/data/hadza3_L001_R1_001.fastq.gz	$PWD/data/hadza3_L001_R2_001.fastq.gz
+mephaa1	$PWD/data/mephaa1_R1.fastq.gz	$PWD/data/mephaa1_R2.fastq.gz
+mephaa2	$PWD/data/mephaa2_R1.fastq.gz	$PWD/data/mephaa2_R2.fastq.gz
+mephaa3	$PWD/data/mephaa3_R1.fastq.gz	$PWD/data/mephaa3_R2.fastq.gz
+chepang1	$PWD/data/chepang1_R1.fastq.gz	$PWD/data/chepang1_R2.fastq.gz
+chepang2	$PWD/data/chepang2_R1.fastq.gz	$PWD/data/chepang2_R2.fastq.gz
+chepang3	$PWD/data/chepang3_R1.fastq.gz	$PWD/data/chepang3_R2.fastq.gz
