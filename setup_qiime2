@@ -27,7 +27,7 @@ QIIME_YAML_TEMPLATE = (
 )
 
 if len(sys.argv) == 2:
-    version = sys.argv
+    version = sys.argv[1]
 else:
     version = "2022.8"
 
