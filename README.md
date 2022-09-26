@@ -1,3 +1,5 @@
+<img src="https://isbscience.org/microbiome2022/images/2022microbiome.png" width="60%">
+
 ![GitHub release](https://img.shields.io/github/tag/Gibbons-Lab/isb_course_2022.svg)
 ![QIIME 2 version](https://img.shields.io/badge/Qiime%202%20version-2022.8-blue.svg)
 [![part 1](https://img.shields.io/website?up_color=green&up_message=up&label=part%201&url=https%3A%2F%2Fgibbons-lab.github.io%2Fisb_course_2022%2F16S)](https://gibbons-lab.github.io/isb_course_2022/16S)
@@ -24,7 +26,8 @@ the directional buttons on your keyboard.
 A [PDF version](part1.pdf) (lacks the output previews) is also available.
 
 
-## Part 2: Metabolic Modeling of Bacterial Isolates
+## Part 2: Predicting personalized microbiome-mediated responses to dietary variation
+
 
 Presentation: [![part 2](https://img.shields.io/website?up_color=green&up_message=up&label=part%202&url=https%3A%2F%2Fgibbons-lab.github.io%2Fisb_course_2022%2Fmicom)](https://gibbons-lab.github.io/isb_course_2022/micom)
 Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gibbons-Lab/isb_course_2022/blob/main/micom.ipynb)
