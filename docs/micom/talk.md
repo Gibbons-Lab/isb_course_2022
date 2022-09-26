@@ -1,8 +1,8 @@
 <!-- .slide: data-background="assets/isb/data-midnight.jpg" class="dark" -->
 
-# Modeling microbiota-wide metabolism with MICOM
+# Predicting personalized microbiome-mediated responses
 
-### Christian Diener, Gibbons Lab
+### Nick Bohmann, Gibbons Lab
 
 <img src="assets/isb/logo.png" width="40%">
 
@@ -10,10 +10,10 @@ from the *ISB Microbiome Course 2020*
 
 <br>
 <div class="footer">
-<a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-NC</a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-SA</a>
 <a href="https://gibbons.isbscience.org/"><i class="fa fa-globe"></i>gibbons.isbscience.org</a>
 <a href="https://github.com/gibbons-lab"><i class="fa fa-github"></i>gibbons-lab</a>
-<a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@thaasophobia </a>
+<a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@BioBohmann</a>
 </div>
 
 ---
