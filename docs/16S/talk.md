@@ -107,8 +107,8 @@ Major changes:
 
 ## Where to find help?
 
-QIIME 2 comes with a lot of help, including a wide range of [tutorials](https://docs.qiime2.org/2021.8/tutorials/),
-[general documentation](https://docs.qiime2.org/2021.8/) and a
+QIIME 2 comes with a lot of help, including a wide range of [tutorials](https://docs.qiime2.org/2022.8/tutorials/),
+[general documentation](https://docs.qiime2.org/2022.8/) and a
 [user forum](https://forum.qiime2.org/) where you can ask questions.
 
 ---
@@ -417,7 +417,7 @@ Are certain *taxa* only found in one environment? Are others more widely distrib
 
 Note:
 
-Welcome to the 2021 ISB Microbiome Project challenge. Create a figure submission in this channel for a chance to win an awesome ISB T-shirt. Our team will pick one winning submission for each geographical region.
+Welcome to the 2022 ISB Microbiome Project challenge. Create a figure submission in this channel for a chance to win an awesome ISB T-shirt. Our team will pick one winning submission for each geographical region.
 
 Rules:
 - one entry per participant
