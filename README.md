@@ -1,4 +1,4 @@
-<img src="https://isbscience.org/microbiome2022/images/2022microbiome.png" width="60%">
+<a href="https://isbscience.org/microbiome2022"><img src="https://isbscience.org/microbiome2022/images/2022microbiome.png" width="60%"></a>
 
 ![GitHub release](https://img.shields.io/github/tag/Gibbons-Lab/isb_course_2022.svg)
 ![QIIME 2 version](https://img.shields.io/badge/Qiime%202%20version-2022.8-blue.svg)
