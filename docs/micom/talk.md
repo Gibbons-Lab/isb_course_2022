@@ -1,19 +1,21 @@
 <!-- .slide: data-background="assets/isb/data-midnight.jpg" class="dark" -->
 
-# Modeling microbiota-wide metabolism with MICOM
+# Predicting personalized microbiome-mediated responses
 
-### Christian Diener, Gibbons Lab
-a
+
+### Nick Bohmann, Gibbons Lab
+
+>>>>>>> 7d36f28d57b0cd3966a3bbb2732052581e88f8af
 <img src="assets/isb/logo.png" width="40%">
 
 from the *ISB Microbiome Course 2022*
 
 <br>
 <div class="footer">
-<a href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-NC</a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/"><i class="fa fa-bullhorn"></i>CC-BY-SA</a>
 <a href="https://gibbons.isbscience.org/"><i class="fa fa-globe"></i>gibbons.isbscience.org</a>
 <a href="https://github.com/gibbons-lab"><i class="fa fa-github"></i>gibbons-lab</a>
-<a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@thaasophobia </a>
+<a href="https://twitter.com/thaasophobia"><i class="fa fa-twitter"></i>@BioBohmann</a>
 </div>
 
 ---
@@ -214,18 +216,6 @@ Componetized dietary reconstructions of underrepreseted groups are not easily av
 ## The niche space
 
 <img src="assets/fig4.png" width="100%">
-
----
-
-
----
-
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
-We observed that the *overall production flux* $v_p = \sum a_i\cdot v_i^{ex}$
-is most directly related to the phenotype.
-
-This is the flux the *intestinal cells* can interact with.
 
 ---
 
