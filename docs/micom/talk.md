@@ -3,10 +3,10 @@
 # Modeling microbiota-wide metabolism with MICOM
 
 ### Christian Diener, Gibbons Lab
-
+a
 <img src="assets/isb/logo.png" width="40%">
 
-from the *ISB Microbiome Course 2020*
+from the *ISB Microbiome Course 2022*
 
 <br>
 <div class="footer">
@@ -22,8 +22,7 @@ from the *ISB Microbiome Course 2020*
 
 Let's get the slides first (use your computer, phone, TV, fridge)
 
-*https://gibbons-lab.github.io/isb_course_2020/micom*
-
+*https://gibbons-lab.github.io/isb_course_2022/micom*
 ---
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
@@ -190,6 +189,27 @@ Well, metagenome-scale models are slightly larger... :sweat:
 </div>
 
 ---
+## Environmental Context
+So, what insights can we gain from constructing these models?
+
+The __environmental context__ to which the microbiome is exposed to is a key determinant of composition and subsequent metabolomic response
+
+In MICOM, we represent the environmental context through the _in silico_ medium applied to the models during growth simulation
+
+---
+## Medium Construction
+Media must be componentized (broken down into constitutent metabolites) to be used in MICOM
+
+Many diets common in North America and Europe have been developed (average Western, vegan etc.)
+
+Componetized dietary reconstructions of underrepreseted groups are not easily available
+
+
+---
+## Medium Construction
+
+
+---
 
 ## The niche space
 
@@ -197,9 +217,6 @@ Well, metagenome-scale models are slightly larger... :sweat:
 
 ---
 
-## Metabolic connections with disease
-
-<img src="assets/fig5.png" width="100%">
 
 ---
 
