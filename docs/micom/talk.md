@@ -247,7 +247,7 @@ The context-dependent way in which a microbial taxon uses its environment
 ## Comparative metabolomics 
 
 Metabolomic exchanges are highly dependent on dietary context 
-<img src="assets/exchanges.png" width="100%">
+<img src="assets/exchanges.png" width="50%">
 
 
 ---
