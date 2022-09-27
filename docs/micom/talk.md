@@ -5,7 +5,6 @@
 
 ### Nick Bohmann, Gibbons Lab
 
->>>>>>> 7d36f28d57b0cd3966a3bbb2732052581e88f8af
 <img src="assets/isb/logo.png" width="40%">
 
 from the *ISB Microbiome Course 2022*
@@ -35,7 +34,7 @@ Let's get the slides first (use your computer, phone, TV, fridge)
 
 <br>
 
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2020/blob/master/micom.ipynb"
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2022/blob/master/micom.ipynb"
    target="_blank">Click me to open the notebook!</a>
 
 ---

@@ -1,0 +1,10 @@
+sample_id,ethnic_group,subsistence,country,reference,file,found_taxa,total_taxa,found_fraction,found_abundance_fraction
+chepang1,Chepang,slash and burn agriculture,Nepal,https://doi.org/10.1371%2Fjournal.pbio.2005396,chepang1.pickle,3.0,4.0,0.75,0.8260812753168691
+chepang2,Chepang,slash and burn agriculture,Nepal,https://doi.org/10.1371%2Fjournal.pbio.2005397,chepang2.pickle,2.0,4.0,0.5,0.5422760511882998
+chepang3,Chepang,slash and burn agriculture,Nepal,https://doi.org/10.1371%2Fjournal.pbio.2005398,chepang3.pickle,4.0,5.0,0.8,0.7928759894459103
+hadza1,Hadza,Hunter-gatherer,Tanzania,https://doi.org/10.1126/science.aan4834,hadza1.pickle,4.0,9.0,0.4444444444444444,0.45371911406990145
+hadza2,Hadza,Hunter-gatherer,Tanzania,https://doi.org/10.1126/science.aan4835,hadza2.pickle,7.0,11.0,0.6363636363636364,0.6758149164620347
+hadza3,Hadza,Hunter-gatherer,Tanzania,https://doi.org/10.1126/science.aan4836,hadza3.pickle,6.0,9.0,0.6666666666666666,0.3886515289712448
+mephaa1,Me’Phaa,slash and burn agriculture,Mexico,https://doi.org/10.3390%2Fmicroorganisms8101592,mephaa1.pickle,5.0,8.0,0.625,0.6314189978960493
+mephaa2,Me’Phaa,slash and burn agriculture,Mexico,https://doi.org/10.3390%2Fmicroorganisms8101593,mephaa2.pickle,4.0,5.0,0.8,0.7522463768115942
+mephaa3,Me’Phaa,slash and burn agriculture,Mexico,https://doi.org/10.3390%2Fmicroorganisms8101594,mephaa3.pickle,4.0,5.0,0.8,0.7575936737861206
