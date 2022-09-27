@@ -191,31 +191,64 @@ Well, metagenome-scale models are slightly larger... :sweat:
 </div>
 
 ---
+<!-- .slide: data-background="var(--primary)" class="dark" -->
+
+## Modeling the microbiome of underrepresented groups
+---
+## Underrepresented Groups 
+
+<img src="assets/map.png" width="80%">
+
+
+<div class="footnote">
+
+https://doi.org/10.1371/journal.pbio.3001536
+
+---
 ## Environmental Context
-So, what insights can we gain from constructing these models?
+So, what *insights* can we gain from constructing these models?
 
-The __environmental context__ to which the microbiome is exposed to is a key determinant of composition and subsequent metabolomic response
+<img src="assets/env_effects.png" width="80%">
 
-In MICOM, we represent the environmental context through the _in silico_ medium applied to the models during growth simulation
+The *environmental context* to which the microbiome is exposed to is a key determinant of composition and subsequent metabolomic response
+
+In MICOM, we can partially represent the environmental context through an _in silico_ medium
 
 ---
 ## Medium Construction
-Media must be componentized (broken down into constitutent metabolites) to be used in MICOM
+Media must be *componentized* (broken down into constitutent metabolites) to be used in MICOM
 
 Many diets common in North America and Europe have been developed (average Western, vegan etc.)
 
 Componetized dietary reconstructions of underrepreseted groups are not easily available
 
+<img src="assets/baobab.png" width="50%">
+
 
 ---
 ## Medium Construction
+To construct a medium: 
+1. Determine dietary components
+2. Map dietary components to constituent metabolites
+3. Balance constituent metabolites in media at relative abundance
+4. Gap-fill to allow growth 
+---
+<!-- .slide: data-background="var(--primary)" class="dark" -->
 
-
+## What to look for in results
 ---
 
 ## The niche space
+The context-dependent way in which a microbial taxon uses its environment
 
 <img src="assets/fig4.png" width="100%">
+
+---
+## Comparative metabolomics 
+
+Metabolomic exchanges are highly dependent on dietary context 
+<img src="assets/exchanges.png" width="100%">
+
 
 ---
 
