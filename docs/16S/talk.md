@@ -61,6 +61,43 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 
 ---
 
+<div style="display: flex; justify-content: space-between; align-items: center;">
+
+<img src="assets/isb/microbes.webp" width="35%">
+
+<div>
+
+## The human gut microbiome 🦠
+
+ - [38 trillion bacterial cells](https://doi.org/10.1371/journal.pbio.1002533) (~1/2 pound) vs 30 trillion human cells :sweat_smile:
+ - Supplies [about 90 percent](https://doi.org/10.1016/j.cell.2015.02.047) of the body's supply of serotonin.
+ - The gut microbiome can be the [only road to cure](https://doi.org/10.1038/nrgastro.2016.98) <i>C. dificile</i> infections.
+ - Success of PD-1 cancer therapy [can be modulated](https://doi.org/10.1126/science.aan3706) by probiotics.
+
+</div>
+
+</div>
+
+---
+
+<!-- .slide: data-background="assets/nadine-shaabana-unsplash.jpg" class="dark" -->
+
+# How do we "see" bacteria?
+
+- many bacteria are *difficult to culture* outside of their resident environment
+- as a proxy we can study bacteria in diverse environments by their *DNA*
+- thus a large part of microbiome research involves analyzing *sequencing data*
+
+<div style="height: 60vh"></div>
+
+<div class="footnote">
+
+Photo by Nadine Shaabana
+
+</div>
+
+---
+
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
 
 # QIIME
@@ -235,7 +272,7 @@ We will now run the DADA2 plugin, which will do 3 things:
 
 ---
 
-## Identifying alternative sequence variants (ASVs)
+## Identifying amplicon sequence variants (ASVs)
 
 <img src="assets/dada2.png" width="80%">
 
@@ -259,6 +296,24 @@ We also have a list of ASVs.
 
 :thinking_face: Do you have an idea for what we could do with these two data sets? What quantities
 might we be interested in?
+
+---
+
+## How do the organisms in our samples relate to one another?
+
+One of the basic things we might want to look at is how the ASVs across
+all samples are evolutionarily related to one another. That is, we are often interested in their *phylogeny*.
+
+**How to build a phylogenetic tree?**
+
+Phylogenetic trees are built from *multiple sequence alignments* and sequences are
+arranged by *sequence similarity* (branch length).
+
+---
+
+We can visualize this tree with [EMPRESS](https://github.com/biocore/empress).
+
+<img src="https://raw.githubusercontent.com/biocore/empress/master/docs/moving-pictures/img/empire_sample_selection_outlierpalm_plus_gut.gif" width="75%">
 
 ---
 
@@ -318,21 +373,6 @@ Weighted UniFrac further scales phylogenetic branch lengths by abundances.
 
 ---
 
-## How to build a phylogenetic tree?
-
-One of the basic things we might want to look at is how the ASVs across
-all samples are evolutionarily related to one another. That is, we are often interested in their *phylogeny*.
-
-Phylogenetic trees are built from *multiple sequence alignments* and sequences are
-arranged by *sequence similarity* (branch length).
-
----
-
-We can visualize this tree with [EMPRESS](https://github.com/biocore/empress).
-
-<img src="https://raw.githubusercontent.com/biocore/empress/master/docs/moving-pictures/img/empire_sample_selection_outlierpalm_plus_gut.gif" width="75%">
-
----
 
 ## Principal Coordinate Analysis
 

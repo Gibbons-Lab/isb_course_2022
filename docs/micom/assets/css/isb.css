@@ -384,7 +384,7 @@ section.has-dark-background, section.dark {
   --gray: #949494; }
 
 .reveal .slides section {
-  margin-left: 4vw;
+  margin-left: 6vw;
   width: calc(100% - 6vw); }
 
 .reveal .reveal-toolbar {
