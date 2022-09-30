@@ -7,7 +7,7 @@
    id="svg8"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="medium.svg"
-   inkscape:export-filename="/home/cdiener/talks/seminar/20210210_CMIST/assets/KG.png"
+   inkscape:export-filename="../docs/micom/assets/medium.png"
    inkscape:export-xdpi="232.22856"
    inkscape:export-ydpi="232.22856"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -1325,8 +1325,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2877655"
-     inkscape:cx="495.82009"
-     inkscape:cy="287.3194"
+     inkscape:cx="496.59662"
+     inkscape:cy="287.70766"
      inkscape:document-units="mm"
      inkscape:current-layer="g54360"
      inkscape:document-rotation="0"
@@ -1553,7 +1553,7 @@
            transform="matrix(0.27966343,0,0,0.27966343,-9.8337457,132.78991)"><tspan
              x="118.58594"
              y="129.45535"
-             id="tspan59167">10.4mg/g</tspan></text>
+             id="tspan896">10.4mg/g</tspan></text>
         <text
            xml:space="preserve"
            id="text20023"
@@ -1561,7 +1561,7 @@
            transform="matrix(0.27966343,0,0,0.27966343,-15.272344,142.87191)"><tspan
              x="118.58594"
              y="129.45535"
-             id="tspan59169">10.1mg/g</tspan></text>
+             id="tspan898">10.1mg/g</tspan></text>
         <text
            xml:space="preserve"
            id="text20843-5"
@@ -1569,7 +1569,7 @@
            transform="matrix(0.27001168,0,0,0.27001168,-12.761866,119.72017)"><tspan
              x="164.92188"
              y="190.9866"
-             id="tspan59171">glc</tspan></text>
+             id="tspan900">glc</tspan></text>
         <text
            xml:space="preserve"
            id="text20937"
@@ -1577,7 +1577,7 @@
            transform="matrix(0.25453536,0,0,0.25453536,-27.678356,114.35075)"><tspan
              x="164.92188"
              y="191.00031"
-             id="tspan59173">M. pumila</tspan></text>
+             id="tspan902">M. pumila</tspan></text>
         <text
            xml:space="preserve"
            id="text20843-4"
@@ -1585,7 +1585,7 @@
            transform="matrix(0.25453536,0,0,0.25453536,-26.566386,139.0572)"><tspan
              x="164.92188"
              y="191.00031"
-             id="tspan59175">D. carota</tspan></text>
+             id="tspan904">D. carota</tspan></text>
         <g
            id="g54327"
            transform="translate(2.9089542,0.41556486)">
@@ -1843,7 +1843,7 @@
                style="font-size:29.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect32498);display:inline;fill:#000000;stroke:none;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"><tspan
                  x="465.28913"
                  y="203.29294"
-                 id="tspan59177">mmol/h</tspan></text>
+                 id="tspan906">mmol/h</tspan></text>
           </g>
           <text
              xml:space="preserve"
@@ -1852,7 +1852,7 @@
              style="font-size:29.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect32952);display:inline;fill:#304ffe;stroke:none;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"><tspan
                x="244.60045"
                y="270.56247"
-               id="tspan59179">initial metabolic profile</tspan></text>
+               id="tspan908">initial metabolic profile</tspan></text>
         </g>
         <g
            id="g54265"
@@ -1967,7 +1967,7 @@
              style="font-size:29.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect32952-1);display:inline;fill:#304ffe;stroke:none;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"><tspan
                x="307.37056"
                y="270.56247"
-               id="tspan59181">large intestine</tspan></text>
+               id="tspan910">large intestine</tspan></text>
         </g>
         <path
            style="fill:none;stroke:#000000;stroke-width:0.207782px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker3408)"
@@ -1993,11 +1993,11 @@
            y="0"><tspan
              x="73.201172"
              y="243.16013"
-             id="tspan59183">adsorption in small intestine
+             id="tspan912">adsorption in small intestine
 </tspan><tspan
              x="73.201172"
              y="279.82675"
-             id="tspan59185">add bile acids and mucin</tspan></text>
+             id="tspan914">add bile acids and mucin</tspan></text>
         <text
            xml:space="preserve"
            transform="matrix(0.06079824,0,0,0.06079824,33.849225,149.69954)"
@@ -2007,11 +2007,11 @@
            y="0"><tspan
              x="73.201172"
              y="243.16013"
-             id="tspan59187">map to model database
+             id="tspan916">map to model database
 </tspan><tspan
              x="73.201172"
              y="279.82675"
-             id="tspan59189">convert to mmol/h</tspan></text>
+             id="tspan918">convert to mmol/h</tspan></text>
         <text
            xml:space="preserve"
            transform="matrix(0.17861083,0,0,0.17861083,41.873807,168.94963)"
@@ -2019,10 +2019,10 @@
            style="font-size:10.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect44578);display:inline;fill:#000000;stroke:none;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"><tspan
              x="396.84961"
              y="244.36917"
-             id="tspan59191">add minimal components so all taxa </tspan><tspan
+             id="tspan920">add minimal components so all taxa </tspan><tspan
              x="396.84961"
              y="257.70254"
-             id="tspan59193">can grow on medium</tspan></text>
+             id="tspan922">can grow on medium</tspan></text>
         <g
            id="g49248"
            transform="matrix(0.81259376,0,0,0.81259376,10.806846,48.230299)">
@@ -2056,7 +2056,7 @@
              style="font-size:10.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect48926);display:inline;fill:#000000;stroke:none;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"><tspan
                x="246.41797"
                y="9.4375298"
-               id="tspan59195">=</tspan></text>
+               id="tspan924">=</tspan></text>
         </g>
         <g
            id="g54360"
@@ -2068,7 +2068,7 @@
              style="font-size:29.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect32952-1-6);display:inline;fill:#304ffe;stroke:none;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"><tspan
                x="332.676"
                y="270.56247"
-               id="tspan59197">completed profile/medium</tspan></text>
+               id="tspan926">completed profile/medium</tspan></text>
           <g
              id="g30510-7-2"
              transform="matrix(0.73757276,0,0,-0.73757276,-76.270523,342.65844)">
@@ -2212,7 +2212,7 @@
              style="font-size:29.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect32498-9-6);display:inline;fill:#000000;stroke:none;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"><tspan
                x="465.28913"
                y="203.29294"
-               id="tspan59199">mmol/h</tspan></text>
+               id="tspan928">mmol/h</tspan></text>
           <rect
              style="fill:#26a69a;stroke:none;stroke-width:0.0713078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;paint-order:stroke fill markers"
              id="rect30483-2-6-3-4"
@@ -2227,10 +2227,10 @@
              style="font-size:10.6667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect50556);display:inline;fill:#26a69a;stroke:none;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"><tspan
                x="522.50195"
                y="476.67581"
-               id="tspan59201">missing essential </tspan><tspan
+               id="tspan930">missing essential </tspan><tspan
                x="522.50195"
                y="490.00919"
-               id="tspan59203">components</tspan></text>
+               id="tspan932">components</tspan></text>
         </g>
       </g>
     </g>
