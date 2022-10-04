@@ -47,6 +47,11 @@ Uses gene/transcript/protein/metabolite abundances (metagenomics, metatranscript
 
 Gene content yields metabolic *capacity* or *potential*.
 
+
+Note: 
+
+Today we'll look at functional analyses of the gut microbiome. That is, not just what's there, but what it does. You can somewhat use gene and metabolite abundances to get to this, but not entirely, as these measures rather give you insight into the potential of the community. 
+
 ---
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
@@ -59,6 +64,10 @@ hot take :fire:
 
 </div>
 
+
+Note: 
+
+Here's the thing: what we really care about in the lens of functional analysis is actually metabolic flux. This will tell us more about the behavior of the microbiome than any abundances.  
 
 ---
 
@@ -75,6 +84,9 @@ video courtesy of [S. Nayyak](https://twitter.com/Na_y_ak) and [J. Iwasa](https:
 
 </div>
 
+Note: 
+Fluxes are measures of metabolic transport, into the system and through internal reactions. They can be very informative, since they tell you which pathways are the most active in a system, and what subsequent pathways are initiated. The visual here shows us why fluxes are more informative than abundances for metabolites: in this case, we have a high import flux for glucose, but the glucose very quickly is converted to pyruvate, so if we measure interal glucose levels, they might be super low. This doesn't tell the whole story, though, since glucose is obviously very important. The problem with measuring fluxes, however, is that it is laborious and quite costly. Longitudinal metabolomics can work, but takes time, effort and expense. Isotopic labeling is another option, but that can be even more costly. So what we need is a way to estimate fluxes, without the experimental expense. 
+
 ---
 
 <!-- .slide: data-background="var(--secondary)" class="dark" -->
@@ -82,6 +94,11 @@ video courtesy of [S. Nayyak](https://twitter.com/Na_y_ak) and [J. Iwasa](https:
 # Flux Balance Analysis (FBA)
 
 Can we infer the most likely fluxes in a biological system?
+
+
+Note: 
+
+To do just that, we can use a method called flux balance analysis. This is a computational method that infers the most likely fluxes in a biological system. 
 
 ---
 
@@ -108,6 +125,10 @@ The goal of FBA is to *reduce* the flux space to a *biologically relevant* one.
 Reproduces experimental fluxes in <i>E. coli</i> [very well](https://dx.doi.org/10.1038%2Fmsb.2010.47).
 
 Bacteria do not like to produce more enzymes than necessary.
+
+
+Note: 
+
 
 ---
 
@@ -203,14 +224,21 @@ Well, metagenome-scale models are slightly larger... :sweat:
 
 https://doi.org/10.1371/journal.pbio.3001536
 
+Note:
+
+Let's take a look again at the them of this year's symposium - studying the gut microbiome of underrepresented groups in microbiome research. This visual, shown yesterday, shows us just how overrepresented North American and European microbiomes are in the field of microbiome research. Today, we will build models of the microbiome of the three indigenous groups introduced in yesterday's lesson, and use these models to make predictions of the metabolic behavior of each microbiome. 
+
+
+
 ---
 ## Environmental Context
 So, what *insights* can we gain from constructing these models?
 
 <img src="assets/env_effects.png" width="80%">
 
-The *environmental context* to which the microbiome is exposed to is a key determinant of composition and subsequent metabolomic response
+Note: 
 
+The *environmental context* to which the microbiome is exposed to is a key determinant of composition and subsequent metabolomic respons
 In MICOM, we can partially represent the environmental context through an _in silico_ medium
 
 ---
@@ -223,6 +251,9 @@ Componetized dietary reconstructions of underrepreseted groups are not easily av
 
 <img src="assets/baobab.png" width="50%">
 
+Note: 
+
+To use a medium for a growth simulation in MICOM, the medium must be componetized, that is, described by its constituent metabolic components. This is a laborious task, as it requires determining the consitutents of various food components present in a diet, and adding them in the proper amounts. For diets of highly represented groups in microbiome research, such as North American or European diets, componetized media are publically available. However, it is difficult to find pre-constructed componetized media representative of the diet of underrepresented groups, like the three indigenous populations for whom we are building metabolic models today. 
 
 ---
 ## Medium Construction
@@ -234,7 +265,9 @@ To construct a medium:
 ---
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-## What to look for in results
+
+
+## Let's Peek at Our Results!
 ---
 
 ## The niche space
