@@ -63,8 +63,6 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
 
-<img src="assets/isb/microbes.webp" width="35%">
-
 <div>
 
 ## The human gut microbiome 🦠
@@ -75,6 +73,8 @@ or `materials/treasure_chest` in the Colaboratory notebook.
  - Success of PD-1 cancer therapy [can be modulated](https://doi.org/10.1126/science.aan3706) by probiotics.
 
 </div>
+
+<img src="assets/isb/microbes.webp" width="35%">
 
 </div>
 
@@ -88,7 +88,9 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 - as a proxy we can study bacteria in diverse environments by their *DNA*
 - thus a large part of microbiome research involves analyzing *sequencing data*
 
-<div style="height: 60vh"></div>
+**So what can we use to analyze sequencing data?**
+
+<div style="height: 33vh"></div>
 
 <div class="footnote">
 
@@ -191,7 +193,7 @@ The 16S gene is *universal* and contains interspersed conserved regions perfect 
 
 # Our study data
 
-<div style="height: 60vh"></div>
+<div style="height: 33vh"></div>
 
 <div class="footnote">
 
@@ -201,14 +203,29 @@ Photo by Hu Chen.
 
 ---
 
+## A few countries account for the majority of microbiome data
+
+<img src="assets/map.png" width="100%">
+
+<div class="footnote">
+
+https://doi.org/10.1371/journal.pbio.3001536
+
+</div>
+
+---
+
 ## Who are we studying?
 
 <img src="assets/sample_sources.png" width="80%">
 
-- 9 samples from 3 native populations
-- Hadza in Tanzania, Me'Phaa in Mexico, and Chepang in Nepal
+9 samples from 3 native populations
 
-<br><br><br>
+- [Hadza in Tanzania](https://www.science.org/doi/10.1126/science.aan4834)
+- [Me'Phaa in Mexico](https://pubmed.ncbi.nlm.nih.gov/33081076/)
+- [Chepang in Nepal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237292/)
+
+<br><br>
 
 <div class="footnote">
 
@@ -319,7 +336,7 @@ We can visualize this tree with [EMPRESS](https://github.com/biocore/empress).
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
-## Diversity metrics
+## Ecological Diversity metrics
 
 In microbial community analysis we are usually interested in two different families of diversity metrics,
 *alpha diversity* (ecological diversity within a sample) and *beta diversity* (ecological differences between samples).
@@ -447,32 +464,6 @@ Are certain *taxa* only found in one environment? Are others more widely distrib
 
 ---
 
-<!-- .slide: data-background="var(--primary)" class="dark" -->
-
-## The project challenge &#129440;
-
-<img src="assets/challenge.png" width="70%">
-
-[Submit your figure here.](https://isb-microbiome.slack.com/archives/C02GZ4L392T)
-
-Note:
-
-Welcome to the 2022 ISB Microbiome Project challenge. Create a figure submission in this channel for a chance to win an awesome ISB T-shirt. Our team will pick one winning submission for each geographical region.
-
-Rules:
-- one entry per participant
-- figure content has to be created only using Qiime 2 and the EMP data set from the course
-- 4 panels (sub-figures) maximum, a single figure/plot is perfectly okay
-- must include text that provides the region you identify with and a caption for the figure
-
-Regions:
-Regions are from the [United Nations Geoscheme](http://united%20nations%20geoscheme/). You can use the map in the link with the following changes:
-
-- North America is split into: North America, United States, and Canada
-- Antarctica is included as a region
-
----
-
 <!-- .slide: data-background="assets/isb/microbes-azure.jpg" class="dark" -->
 
 ### And we are done :clap:
@@ -480,16 +471,19 @@ Regions are from the [United Nations Geoscheme](http://united%20nations%20geosch
 <div style="display: flex; justify-content: space-around; align-items: center;">
 
 *ISB team* <br>
-Joey Petosa <br>
+Dominic Lewis <br>
 Allison Kudla <br>
 Christian Diener <br>
+Nick Bohmann <br>
 Sean Gibbons <br>
-Priyanka Baloni <br>
-Tomasz Wilmanski <br>
-Noa Rappaport <br>
+Sue Ishaq <br>
+Emily Wissel <br>
 Alex Carr <br>
+Noa Rappaport <br>
+Samantha Piekos <br>
+James Johnson <br>
+Kathryn Stephenson <br>
 Audri Hubbard <br>
-Renee Duprel <br>
 Joe Myxter <br>
 Thea Swanson
 
