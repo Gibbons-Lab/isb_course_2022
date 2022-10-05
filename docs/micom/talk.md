@@ -210,6 +210,11 @@ Why is this so hard? Can't we just maximize the community growth rate? Well...
 *Cooperative Tradeoff FBA* allows us to treat metagenome-scale models with the *same*
 methods as genome-scale metabolic models (pFBA, minimal media, etc).
 
+
+Note: 
+
+In practice, getting a community-wide growth rate using classic FBA doesn't work very well. While we can use FBA to calculate the maximal community growth rate, it doesn't return a unique solution, and it will include solutions in which the growth rate for some individual taxa is zero, while some really fast growers will have a high growth rate. This isn't good, since this introduces a lot of ambiguity and increases the size of the flux cone to include non-biologically relevant solutions. To overcome this, MICOM uses L2 regularization, wherein the optimal solution that minimizes the sum of the squares of the individual growth rates is found. This reduces the space of the optimal solutions to just one rather than infinity, and returns a solution of growth rates that is non-zero for all taxa present in the sample, smoothing out growth between members of the community. Thinking biologically, though, it is intuitive that for every bacteria in a community to be able to grow, optimal growth rate might not be acheieved. We can use the cooperative tradeoff to set the minimum fraction of the optimal growth rate we want to achieve, allowing all the taxa to grow in a biologically relevant manner.
+
 ---
 
 ## But does it work?
@@ -221,6 +226,11 @@ methods as genome-scale metabolic models (pFBA, minimal media, etc).
 https://doi.org/10.1128/mSystems.00606-19
 
 </div>
+
+
+Note:
+
+The age-old question. Here, we can see the number of taxa growing in a sample community at various tradeoff values. If we do nothing (no L2 regularization), there is a super small number of taxa growing at high growth rate, and almost all the taxa effectively not growing at all. Obviously, this is not what's actually happening in the microbiome. If we apply L2 regularization at the maximal growth rate, we see that a lot more taxa are able to grow. Lowering the tradeoff value just a little, we see that almost all the taxa are able to grow, echoing what we expect to see in the microbial community. This was also validated by comparing predicted growth rates with actual growth rates. For these data, the team had metagenomes. Bacterial genomes replicate from one origin of replication, and is then replicated completely. So, you can count how many reads in the metagenomes map to different places on the genome, you can then calculate a coverage profile. Since it starts replicating at the origin, we see a decay as we get farther away. It was shown by the Segal lab that the slope of this decay can be used to estimate the growth rate. Using this method, the team could validate the growth rates predicted by MICOM. You can see in this panel on the right that without regularization, or at high tradeoff values with regularization, the predicted growth rate did not correlate with calculated growth rate. Lower the tradeoff value slightly showed a much stronger correlation with calculated growth rate, serving to validate this method. 
 
 ---
 
@@ -256,7 +266,7 @@ https://doi.org/10.1371/journal.pbio.3001536
 
 Note:
 
-Let's take a look again at the them of this year's symposium - studying the gut microbiome of underrepresented groups in microbiome research. This visual, shown yesterday, shows us just how overrepresented North American and European microbiomes are in the field of microbiome research. Today, we will build models of the microbiome of the three indigenous groups introduced in yesterday's lesson, and use these models to make predictions of the metabolic behavior of each microbiome. 
+Let's take a look again at the them of this year's symposium - studying the gut microbiome of underrepresented groups in microbiome research. This visual, shown yesterday, shows us just how overrepresented North American and European microbiomes are in the field of microbiome research. Today, we will build models of the microbiome of the three indigenous groups introduced in yesterday's lesson, and use these models to make predictions of the metabolic behavior of each microbiome based on the dietary context. 
 
 
 
@@ -267,7 +277,7 @@ So, what *insights* can we gain from construct
 
 Note: 
 
-The *environmental context* to which the microbiome is exposed to is a key determinant of composition and subsequent metabolomic response. In MICOM, we can partially represent the environmental context through an _in silico_ medium. Since the metabolites in the diet are direct precursors of microbially produced metabolites, it is critical that the medium passed into the growth simulation is representative of the diet typically consumed by the subject being modeled. Today, we'll investigate this by using two separate media - a matched medium, representing the diet of the indigenous groups we are modeling, and an unmatched medium, representing an average Austrian diet, not typically consumed by the individuals upon whom the models are based. 
+The environmental context to which the microbiome is exposed to is a key determinant of composition and subsequent metabolic response. In MICOM, we can partially represent the environmental context through an _in silico_ medium. Since the metabolites in the diet are direct precursors of microbially produced metabolites, it is critical that the medium passed into the growth simulation is representative of the diet typically consumed by the subject being modeled. Today, we'll investigate this by using two separate media - a matched medium, representing the diet of the indigenous groups we are modeling, and an unmatched medium, representing an average Austrian diet, not typically consumed by the individuals upon whom the models are based. 
 
 ---
 ## Medium Construction
@@ -328,13 +338,13 @@ Metabolomic exchanges are highly dependent on dietary context
 
 Note: 
 
-We'll also take a look at the metabolomic profile of the taxa in our sample. Similar to the niche space, the metabolic activity of a taxon is dependent on the context in which it grows - here, we'll look at exports from the microbiome between the two diets we've used for modeling. 
+We'll also take a look at the metabolomic profile of the taxa in our sample. Similar to the niche space, the metabolic activity of a taxon is dependent on the context in which it grows - here, we'll look at exports from the microbiome between the two diets we've used for modeling. Since the environmental context in these two growth simulations is so disparate, we expect to see different exchange fluxes between the two media. Since the matched medium represents the diet typically eaten by each individual, we expect this to be a closer match to the actual behavior of the microbiome. This will also be good practice at using MICOM data to build our own visualizations. 
 
 ---
 
 ## Your turn
 
-Check out how to use MICOM for a "n-of-1" analysis.
+Check out how to use MICOM for analysis of a single microbial community.
 
 <img src="assets/coding.gif" width="50%">
 
