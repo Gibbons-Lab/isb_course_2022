@@ -236,7 +236,7 @@ Note:
 
 <div class="footnote">
 
-https://doi.org/10.1371/journal.pbio.3001536
+RJ Abdill et al., https://doi.org/10.1371/journal.pbio.3001536
 
 </div>
 
