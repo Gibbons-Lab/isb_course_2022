@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="245.7971"
    inkscape:export-xdpi="245.7971"
-   inkscape:export-filename="/home/cdiener/teaching/isb_course_2021/docs/16S/assets/naive_bayes.png"
+   inkscape:export-filename="../docs/16S/assets/naive_bayes.png"
    sodipodi:docname="naive_bayes.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    id="svg8"
    version="1.1"
    viewBox="0 0 200 100"
    height="100mm"
-   width="200mm">
+   width="200mm"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
+    <rect
+       x="11.547922"
+       y="240.78592"
+       width="238.80508"
+       height="34.80205"
+       id="rect1349" />
     <rect
        x="61.760201"
        y="88.727162"
@@ -1144,7 +1150,11 @@
     <filter
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Drop Shadow"
-       id="filter4684">
+       id="filter4684"
+       x="-0.021040126"
+       y="-0.053615366"
+       width="1.0447103"
+       height="1.1139327">
       <feFlood
          flood-opacity="0.498039"
          flood-color="rgb(0,0,0)"
@@ -1173,12 +1183,30 @@
          result="composite2"
          id="feComposite4682" />
     </filter>
+    <rect
+       x="11.547922"
+       y="240.78592"
+       width="238.80508"
+       height="34.802052"
+       id="rect1349-3" />
+    <rect
+       x="11.547922"
+       y="240.78592"
+       width="238.80508"
+       height="34.802052"
+       id="rect1349-7" />
+    <rect
+       x="11.547922"
+       y="240.78592"
+       width="238.80508"
+       height="34.802052"
+       id="rect1349-7-3" />
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="0"
+     inkscape:window-y="32"
      inkscape:window-x="0"
-     inkscape:window-height="1024"
+     inkscape:window-height="1020"
      inkscape:window-width="1920"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-center="false"
@@ -1188,15 +1216,18 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="150.05601"
-     inkscape:cx="641.0916"
-     inkscape:zoom="2.7542432"
+     inkscape:cy="249.54506"
+     inkscape:cx="427.97492"
+     inkscape:zoom="1.947544"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base">
+     id="base"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid335" />
@@ -1220,43 +1251,43 @@
     <text
        xml:space="preserve"
        id="text18"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12);fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12);display:inline;fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        transform="matrix(1.0062077,0,0,1.0062077,-1.3493142,-15.037361)"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="stroke:none">ACGCGC</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3864">ACGCGC</tspan></text>
     <text
        xml:space="preserve"
        id="text22"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12);fill:#2196f3;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12);display:inline;fill:#2196f3;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        transform="matrix(1.0062077,0,0,1.0062077,-1.4666612,-9.2239482)"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="fill:#2196f3;stroke:none">ACG</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3866">ACG</tspan></text>
     <text
        xml:space="preserve"
        id="text26"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12);fill:#26a69a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12);display:inline;fill:#26a69a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        transform="matrix(1.0062077,0,0,1.0062077,0.91648658,-3.9418378)"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="fill:#26a69a;stroke:none"> CGC</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3868"> CGC</tspan></text>
     <text
        xml:space="preserve"
        id="text30"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12);fill:#e57373;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12);display:inline;fill:#e57373;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        transform="matrix(1.0062077,0,0,1.0062077,3.0172524,1.4587522)"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="fill:#e57373;stroke:none">  GCG</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3870">  GCG</tspan></text>
     <text
        transform="matrix(1.0062077,0,0,1.0062077,6.9663313,6.5728562)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-3);fill:#009688;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-3);display:inline;fill:#009688;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text30-6"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="fill:#009688;stroke:none">  CGC</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3872">  CGC</tspan></text>
     <rect
        y="8.3415871"
        x="76.006493"
@@ -1266,152 +1297,168 @@
        style="fill:#ffffff;stroke:none;stroke-width:1.9696;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;filter:url(#filter4684)" />
     <text
        transform="matrix(0.89021626,0,0,0.89021626,66.028205,6.9824942)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7);fill:#2196f3;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7);display:inline;fill:#2196f3;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text22-5"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold Italic'">P</tspan><tspan
-           style="fill:#2196f3;stroke:none">(ACG) = 0.25</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3876"><tspan
+   style="font-style:italic;font-weight:600;-inkscape-font-specification:'Lato Semi-Bold Italic'"
+   id="tspan3874">P</tspan>(ACG) = 0.25</tspan></text>
     <text
        transform="matrix(0.89021626,0,0,0.89021626,66.021445,13.853324)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7);fill:#26a69a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7);display:inline;fill:#26a69a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text26-3"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold Italic'">P</tspan><tspan
-           style="fill:#26a69a;stroke:none">(CGC) = 0.25 </tspan></tspan></text>
+         y="34.827454"
+         id="tspan3880"><tspan
+   style="font-style:italic;font-weight:600;-inkscape-font-specification:'Lato Semi-Bold Italic'"
+   id="tspan3878">P</tspan>(CGC) = 0.25 </tspan></text>
     <text
        transform="matrix(0.89021626,0,0,0.89021626,65.916336,20.635283)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7);fill:#e57373;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7);display:inline;fill:#e57373;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text30-5"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold Italic'">P</tspan><tspan
-           style="fill:#e57373;stroke:none">(GCG) = 0.5</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3884"><tspan
+   style="font-style:italic;font-weight:600;-inkscape-font-specification:'Lato Semi-Bold Italic'"
+   id="tspan3882">P</tspan>(GCG) = 0.5</tspan></text>
     <text
        transform="matrix(0.88949386,0,0,0.88949386,-47.956851,34.644018)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect953);fill:#000000;stroke:none;stroke-width:1.16056;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect953);display:inline;fill:#000000;stroke:none;stroke-width:1.16056;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text951"
        xml:space="preserve"><tspan
          x="58.337891"
-         y="44.952454"><tspan
-           style="stroke-width:1.16056">P(taxon 1 | query) ~ </tspan><tspan
-           style="fill:#616161;stroke-width:1.16056">0.2</tspan><tspan
-           style="stroke-width:1.16056"> · </tspan><tspan
-           style="fill:#2196f3;stroke-width:1.16056">0.25</tspan><tspan
-           style="stroke-width:1.16056"> · </tspan><tspan
-           style="fill:#26a69a;stroke-width:1.16056">0.25</tspan><tspan
-           style="font-size:65%;baseline-shift:super;fill:#26a69a;stroke-width:1.16056">2</tspan><tspan
-           style="stroke-width:1.16056"> · </tspan><tspan
-           style="fill:#e57373;stroke-width:1.16056">0.5</tspan><tspan
-           style="stroke-width:1.16056"> = 0.0016</tspan></tspan></text>
+         y="44.952454"
+         id="tspan3896">P(taxon 1 | query) ~ <tspan
+   style="fill:#616161"
+   id="tspan3886">0.2</tspan> · <tspan
+   style="fill:#2196f3"
+   id="tspan3888">0.25</tspan> · <tspan
+   style="fill:#26a69a"
+   id="tspan3890">0.25</tspan><tspan
+   style="font-size:65%;baseline-shift:super;fill:#26a69a"
+   id="tspan3892">2</tspan> · <tspan
+   style="fill:#e57373"
+   id="tspan3894">0.5</tspan> = 0.0016</tspan></text>
     <text
        transform="matrix(0.82835376,0,0,0.82835376,-24.728458,5.2240182)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect982);fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect982);display:inline;fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text980"
        xml:space="preserve"><tspan
          x="124.83789"
-         y="9.4758919"><tspan
-           style="fill:#000000">reference model
-</tspan></tspan><tspan
+         y="9.4758919"
+         id="tspan3898">reference model
+</tspan><tspan
          x="124.83789"
-         y="16.531441"><tspan
-           style="fill:#000000">
-</tspan></tspan><tspan
+         y="16.531441"
+         id="tspan3900">
+</tspan><tspan
          x="124.83789"
-         y="23.586991"><tspan
-           style="fill:#000000">taxon 1</tspan></tspan></text>
+         y="23.586991"
+         id="tspan3902">taxon 1</tspan></text>
     <path
        id="path986"
        d="m 3.2572071,88.125694 v 2.27647 H 43.148804 v -2.45126"
        style="fill:none;stroke:#5c6bc0;stroke-width:0.367443;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        transform="matrix(0.68509744,0,0,0.68509744,-1.5184173,46.223092)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect990);fill:#5c6bc0;stroke:none;stroke-width:0.29014;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect990);display:inline;fill:#5c6bc0;stroke:none;stroke-width:0.29014;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        id="text988"
        xml:space="preserve"><tspan
          x="10.099609"
-         y="70.425111"><tspan
-           style="fill:#5c6bc0;stroke:none;stroke-width:0.29014">choose highest taxon</tspan></tspan></text>
+         y="70.425111"
+         id="tspan3904">choose highest taxon</tspan></text>
     <text
        xml:space="preserve"
        id="text980-2"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect982-6);fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect982-6);display:inline;fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        transform="matrix(0.82835377,0,0,0.82835377,-90.939209,3.9321012)"><tspan
          x="124.83789"
-         y="9.4758919"><tspan>query sequence</tspan></tspan></text>
+         y="9.4758919"
+         id="tspan3906">query sequence</tspan></text>
     <text
        transform="matrix(0.82835377,0,0,0.82835377,20.255891,16.559183)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect982-3);fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect982-3);display:inline;fill:#000000;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text980-6"
        xml:space="preserve"><tspan
          x="124.83789"
-         y="9.4758919"><tspan>taxon 2</tspan></tspan></text>
+         y="9.4758919"
+         id="tspan3908">taxon 2</tspan></text>
     <text
        transform="matrix(0.89021626,0,0,0.89021626,110.03502,6.9200412)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-7);fill:#2196f3;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-7);display:inline;fill:#2196f3;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text22-5-5"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold Italic'">P</tspan><tspan
-           style="fill:#2196f3;stroke:none">(ACG) = 0.4</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3912"><tspan
+   style="font-style:italic;font-weight:600;-inkscape-font-specification:'Lato Semi-Bold Italic'"
+   id="tspan3910">P</tspan>(ACG) = 0.4</tspan></text>
     <text
        transform="matrix(0.89021626,0,0,0.89021626,110.02826,13.790872)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-7);fill:#26a69a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-7);display:inline;fill:#26a69a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text26-3-3"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold Italic'">P</tspan><tspan
-           style="fill:#26a69a;stroke:none">(CGC) = 0.2 </tspan></tspan></text>
+         y="34.827454"
+         id="tspan3916"><tspan
+   style="font-style:italic;font-weight:600;-inkscape-font-specification:'Lato Semi-Bold Italic'"
+   id="tspan3914">P</tspan>(CGC) = 0.2 </tspan></text>
     <text
        transform="matrix(0.89021626,0,0,0.89021626,109.92316,20.572831)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-7);fill:#e57373;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-7);display:inline;fill:#e57373;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text30-5-5"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold Italic'">P</tspan><tspan
-           style="fill:#e57373;stroke:none">(GCG) = 0.4</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3920"><tspan
+   style="font-style:italic;font-weight:600;-inkscape-font-specification:'Lato Semi-Bold Italic'"
+   id="tspan3918">P</tspan>(GCG) = 0.4</tspan></text>
     <text
        transform="matrix(0.89021626,0,0,0.89021626,65.901163,0.3736032)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-60);fill:#616161;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-60);display:inline;fill:#616161;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text327"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold Italic';fill:#616161">P</tspan><tspan
-           style="shape-inside:url(#rect12-7-60)">(taxon 1) = 0.2</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3926"><tspan
+           style="font-style:italic;font-weight:600;-inkscape-font-specification:'Lato Semi-Bold Italic'"
+           id="tspan3922">P</tspan><tspan
+           style="shape-inside:url(#rect12-7-60)"
+           id="tspan3924">(taxon 1) = 0.2</tspan></tspan></text>
     <text
        transform="matrix(0.89021626,0,0,0.89021626,110.08285,-0.1924728)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-60);fill:#616161;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect12-7-60);display:inline;fill:#616161;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text333"
        xml:space="preserve"><tspan
          x="14.580078"
-         y="34.827454"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold Italic';fill:#616161">P</tspan><tspan
-           style="shape-inside:url(#rect12-7-60)">(taxon 2) = 0.1</tspan></tspan></text>
+         y="34.827454"
+         id="tspan3932"><tspan
+           style="font-style:italic;font-weight:600;-inkscape-font-specification:'Lato Semi-Bold Italic'"
+           id="tspan3928">P</tspan><tspan
+           style="shape-inside:url(#rect12-7-60)"
+           id="tspan3930">(taxon 2) = 0.1</tspan></tspan></text>
     <text
        transform="matrix(0.88949386,0,0,0.88949386,-47.956851,43.763174)"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect953-6);fill:#000000;stroke:none;stroke-width:1.16056;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;white-space:pre;shape-inside:url(#rect953-6);display:inline;fill:#000000;stroke:none;stroke-width:1.16056;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        id="text951-3"
        xml:space="preserve"><tspan
          x="58.337891"
-         y="44.952454"><tspan
-           style="stroke-width:1.16056">P(taxon 2 | query) ~ </tspan><tspan
-           style="fill:#616161;stroke-width:1.16056">0.1</tspan><tspan
-           style="stroke-width:1.16056"> · </tspan><tspan
-           style="fill:#2196f3;stroke-width:1.16056">0.4</tspan><tspan
-           style="stroke-width:1.16056"> · </tspan><tspan
-           style="fill:#26a69a;stroke-width:1.16056">0.2</tspan><tspan
-           style="font-size:65%;baseline-shift:super;fill:#26a69a;stroke-width:1.16056">2</tspan><tspan
-           style="stroke-width:1.16056"> · </tspan><tspan
-           style="fill:#e57373;stroke-width:1.16056">0.4</tspan><tspan
-           style="stroke-width:1.16056"> = 0.0006</tspan></tspan></text>
+         y="44.952454"
+         id="tspan3944">P(taxon 2 | query) ~ <tspan
+   style="fill:#616161"
+   id="tspan3934">0.1</tspan> · <tspan
+   style="fill:#2196f3"
+   id="tspan3936">0.4</tspan> · <tspan
+   style="fill:#26a69a"
+   id="tspan3938">0.2</tspan><tspan
+   style="font-size:65%;baseline-shift:super;fill:#26a69a"
+   id="tspan3940">2</tspan> · <tspan
+   style="fill:#e57373"
+   id="tspan3942">0.4</tspan> = 0.0006</tspan></text>
     <g
        inkscape:label=""
        transform="matrix(0.63985,0,0,0.63985,77.090713,22.7693)"
@@ -1714,24 +1761,24 @@
     <text
        xml:space="preserve"
        id="text4603"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect4605);fill:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect4605);display:inline;fill:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        transform="matrix(0.67441974,0,0,0.67441974,36.814301,3.0093914)"><tspan
-         x="189.15929"
-         y="40.175111"><tspan
-           style="fill:#000000">prior</tspan></tspan></text>
+         x="189.15928"
+         y="40.175111"
+         id="tspan3946">prior</tspan></text>
     <text
        xml:space="preserve"
        id="text4603-6"
-       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;white-space:pre;shape-inside:url(#rect4605-3);fill:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;"
+       style="font-size:5.64444px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;white-space:pre;shape-inside:url(#rect4605-3);display:inline;fill:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        transform="matrix(0.67441974,0,0,0.67441974,43.220181,13.804286)"
        x="-14.228199"
        y="0"><tspan
          x="179.78906"
-         y="40.175111"><tspan
-           style="text-align:start;text-anchor:start">k-mer </tspan></tspan><tspan
+         y="40.175111"
+         id="tspan3948">k-mer </tspan><tspan
          x="179.78906"
-         y="47.23066"><tspan
-           style="text-align:start;text-anchor:start">frequencies</tspan></tspan></text>
+         y="47.23066"
+         id="tspan3950">frequencies</tspan></text>
     <path
        style="fill:none;stroke:#616161;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM);stroke-miterlimit:4;stroke-dasharray:0.9,0.9;stroke-dashoffset:0"
        d="m 59.528432,90.484608 c -3.214808,0.908506 -6.646376,-0.312642 -8.190491,-4.325137"
@@ -1740,10 +1787,54 @@
     <text
        xml:space="preserve"
        id="text1642"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect1644);opacity:1;fill:#616161;stroke:#c62828;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000;"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect1644);display:inline;opacity:1;fill:#616161;stroke:#c62828;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
        transform="translate(-1.5539077,-1.6591296)"><tspan
          x="61.759766"
-         y="91.535693"><tspan
-           style="fill:#616161;stroke:none">methods differ here</tspan></tspan></text>
+         y="91.535693"
+         id="tspan3954"><tspan
+           style="stroke:none"
+           id="tspan3952">methods differ here</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.18842905,0,0,0.18842905,2.1290472,21.275745)"
+       id="text1347"
+       style="font-size:10.6667px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect1349);display:inline;fill:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"><tspan
+         x="11.548828"
+         y="250.70519"
+         id="tspan3956">probability of taxon 1 given the query</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.18842905,0,0,0.18842905,57.11027,18.089353)"
+       id="text1347-5"
+       style="font-size:10.6667px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect1349-7);display:inline;fill:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"><tspan
+         x="11.548828"
+         y="250.70519"
+         id="tspan3958">probability of the query given it's taxon 1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.18842905,0,0,0.18842905,46.535364,30.838251)"
+       id="text1347-5-5"
+       style="font-size:10.6667px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect1349-7-3);display:inline;fill:#616161;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"><tspan
+         x="11.548828"
+         y="250.70519"
+         id="tspan3960">probability of taxon 1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.28375802,0,0,0.28375802,55.850021,-1.8281431)"
+       id="text1347-6"
+       style="font-size:10.6667px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;white-space:pre;shape-inside:url(#rect1349-3);display:inline;fill:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"><tspan
+         x="11.548828"
+         y="250.70519"
+         id="tspan3972"><tspan
+   style="fill:#2196f3"
+   id="tspan3962">1 ACG</tspan> <tspan
+   style="font-style:italic"
+   id="tspan3964">and</tspan> <tspan
+   style="fill:#26a69a"
+   id="tspan3966">2 CGC</tspan> <tspan
+   style="font-style:italic"
+   id="tspan3968">and</tspan> <tspan
+   style="fill:#e57373"
+   id="tspan3970">1 GCG</tspan></tspan></text>
   </g>
 </svg>

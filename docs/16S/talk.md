@@ -34,6 +34,11 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 <img src="assets/materials.png" width="80%">
 
+Note:
+
+- this allows asynchronous work / different timezones
+- questions on Slack not on Zoom please
+
 ---
 
 <!-- .slide: data-background="var(--primary)" class="dark" -->
@@ -46,11 +51,6 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 
 <a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2022/blob/main/16S.ipynb"
    target="_blank">Click me to open the notebook!</a>
-
-Note:
-
-- this allows asynchronous work / different timezones
-- questions on Slack not on Zoom please :thanks:
 
 ---
 
@@ -226,7 +226,7 @@ Photo by Hu Chen.
 Note:
 
 - the advent of cheap sequencing has generated a lot of publically available data
-- however do we *really* know the human microbiome
+- however do we *really* know the human microbiome?
 
 ---
 
@@ -242,7 +242,7 @@ https://doi.org/10.1371/journal.pbio.3001536
 
 Note:
 
-- not really, many populations are not represented well
+- not really, many populations are not represented
 - heavily skewed towards populations from a few countries
 - this propagates to reference databases, functional annotations, etc.
 - see the symposium talks for a much more thorough discussion
@@ -269,7 +269,7 @@ Photos by Ben Preater, Giuseppe Mondi, Daniel Apodaca.
 
 Note:
 
-- variety of subsistence strategies and lifestyles
+- variety of cultures and lifestyles
 - distinct geographic regions
 
 ---
