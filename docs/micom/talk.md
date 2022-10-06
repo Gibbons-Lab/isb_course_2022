@@ -272,7 +272,7 @@ Let's take a look again at the them of this year's symposium - studying the gut 
 
 ---
 ## Environmental Context
-So, what *insights* can we gain from construct
+How does the environment affect the microbiome?
 <img src="assets/env_effects.png" width="80%">
 
 Note: 
