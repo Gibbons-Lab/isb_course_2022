@@ -240,13 +240,15 @@ Well, metagenome-scale models are slightly larger... :sweat:
 
 ---
 
-<img src="assets/model_gephi.png" width="100%">
+<img src="assets/model_gephi.png" width="90%">
 
 ---
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
 ## Modeling the microbiome of underrepresented groups
+
 ---
+
 ## Underrepresented Groups
 
 <img src="assets/map.png" width="80%">
@@ -263,23 +265,29 @@ Let's take a look again at the them of this year's symposium - studying the gut 
 
 
 ---
+
 ## Environmental Context
+
 How does the environment affect the microbiome?
-<img src="assets/env_effects.png" width="80%">
+
+<img src="assets/env_effects.png" width="70%">
 
 Note:
 
 The environmental context to which the microbiome is exposed to is a key determinant of composition and subsequent metabolic response. In MICOM, we can partially represent the environmental context through an _in silico_ medium. Since the metabolites in the diet are direct precursors of microbially produced metabolites, it is critical that the medium passed into the growth simulation is representative of the diet typically consumed by the subject being modeled. Today, we'll investigate this by using two separate media - a matched medium, representing the diet of the indigenous groups we are modeling, and an unmatched medium, representing an average Austrian diet, not typically consumed by the individuals upon whom the models are based.
 
 ---
+
 ## Medium Construction
+
 Media must be *componentized* (broken down into constitutent metabolites) to be used in MICOM
 
 Many diets common in North America and Europe have been developed (average Western, vegan etc.)
 
 Componetized dietary reconstructions of underrepreseted groups are not easily available
 
-<img src="assets/baobab.png" width="50%">
+<img src="assets/baobab.png" width="30%">
+
 
 Note:
 
@@ -287,11 +295,8 @@ To use a medium for a growth simulation in MICOM, the medium must be componetize
 
 ---
 ## Medium Construction
-To construct a medium:
-1. Determine dietary components
-2. Map dietary components to constituent metabolites
-3. Balance constituent metabolites in media at relative abundance
-4. Gap-fill to allow growth
+
+<img src="assets/medium.png" width="80%">
 
 Note:
 
@@ -300,9 +305,6 @@ To construct the matched media we will use for modeling the growth of the microb
 
 ---
 <!-- .slide: data-background="var(--primary)" class="dark" -->
-
-
-
 
 ## Let's Peek at Our Results!
 
@@ -313,6 +315,7 @@ Let's take a peak at the results of our growth simulation, and see what insights
 ---
 
 ## The niche space
+
 The context-dependent way in which a microbial taxon uses its environment
 
 <img src="assets/fig4.png" width="100%">
@@ -323,9 +326,11 @@ The niche space represents the context-dependent way in which a taxon uses it's 
 
 
 ---
+
 ## Comparative metabolomics
 
 Metabolomic exchanges are highly dependent on dietary context
+
 <img src="assets/exchanges.png" width="50%">
 
 Note:
