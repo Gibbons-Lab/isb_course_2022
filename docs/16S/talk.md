@@ -47,6 +47,11 @@ Let's get the slides first (use your computer, phone, TV, fridge, anything with 
 <a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2022/blob/main/16S.ipynb"
    target="_blank">Click me to open the notebook!</a>
 
+Note:
+
+- this allows asynchronous work / different timezones
+- questions on Slack not on Zoom please :thanks:
+
 ---
 
 ### Wait... what?
@@ -97,6 +102,14 @@ or `materials/treasure_chest` in the Colaboratory notebook.
 Photo by Nadine Shaabana
 
 </div>
+
+Note:
+
+- sequencing/culture-free approaches have allowed us to vastly expand our knowledge
+  about bacteria and their evolution
+- however, harder to map to phenotypes / ecology
+- sequencing data needs to be transformed first to be useful
+- what tools can we use for that?
 
 ---
 
@@ -172,11 +185,20 @@ https://docs.qiime2.org/2022.8/tutorials/overview/
 Artifacts often represent *intermediate steps*, but Visualizations are *end points*
 meant for human consumption :point_up:.
 
+Artifacts and Visualizations in Qiime 2 are just zip files with annotations and a
+`data` folder that contains the actual output data.
+
 ---
 
 ## What is amplicon sequencing?
 
 <img src="assets/16S.png" width="100%">
+
+Note:
+
+- very efficient, every paired read covers the full area of interest
+- great sensitivity
+- but not genomics (not even a full gene)
 
 ---
 
@@ -201,6 +223,11 @@ Photo by Hu Chen.
 
 </div>
 
+Note:
+
+- the advent of cheap sequencing has generated a lot of publically available data
+- however do we *really* know the human microbiome
+
 ---
 
 ## A few countries account for the majority of microbiome data
@@ -212,6 +239,13 @@ Photo by Hu Chen.
 https://doi.org/10.1371/journal.pbio.3001536
 
 </div>
+
+Note:
+
+- not really, many populations are not represented well
+- heavily skewed towards populations from a few countries
+- this propagates to reference databases, functional annotations, etc.
+- see the symposium talks for a much more thorough discussion
 
 ---
 
@@ -232,6 +266,11 @@ https://doi.org/10.1371/journal.pbio.3001536
 Photos by Ben Preater, Giuseppe Mondi, Daniel Apodaca.
 
 </div>
+
+Note:
+
+- variety of subsistence strategies and lifestyles
+- distinct geographic regions
 
 ---
 
@@ -330,7 +369,15 @@ arranged by *sequence similarity* (branch length).
 
 We can visualize this tree with [EMPRESS](https://github.com/biocore/empress).
 
-<img src="https://raw.githubusercontent.com/biocore/empress/master/docs/moving-pictures/img/empire_sample_selection_outlierpalm_plus_gut.gif" width="75%">
+<img src="https://raw.githubusercontent.com/biocore/empress/master/docs/moving-pictures/img/empress_circular_common_ancestor.gif" width="75%">
+
+---
+
+<!-- .slide: data-background="var(--primary)" class="dark" -->
+
+## First glance at the ASVs
+
+:computer: Let's switch to the notebook look at our data and build a tree.
 
 ---
 
@@ -458,7 +505,7 @@ approach often provides better *generalization* and faster results.
 
 ## Your turn
 
-Are certain *taxa* only found in one environment? Are others more widely distributed?
+Is there phylogenetic diversity between *taxa* from different populations?
 
 <img src="assets/coding.gif" width="50%">
 

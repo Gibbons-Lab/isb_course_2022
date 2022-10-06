@@ -1,10 +1,10 @@
-id	ethnic_group	subsistence	country	reference
+id	ethnic_group	lifestyle_food	country	reference
 hadza1	Hadza	Hunter-gatherer	Tanzania	https://doi.org/10.1126/science.aan4834
 hadza2	Hadza	Hunter-gatherer	Tanzania	https://doi.org/10.1126/science.aan4835
 hadza3	Hadza	Hunter-gatherer	Tanzania	https://doi.org/10.1126/science.aan4836
-mephaa1	Me’Phaa	slash and burn agriculture	Mexico	https://doi.org/10.3390%2Fmicroorganisms8101592
-mephaa2	Me’Phaa	slash and burn agriculture	Mexico	https://doi.org/10.3390%2Fmicroorganisms8101593
-mephaa3	Me’Phaa	slash and burn agriculture	Mexico	https://doi.org/10.3390%2Fmicroorganisms8101594
-chepang1	Chepang	slash and burn agriculture	Nepal	https://doi.org/10.1371%2Fjournal.pbio.2005396
-chepang2	Chepang	slash and burn agriculture	Nepal	https://doi.org/10.1371%2Fjournal.pbio.2005397
-chepang3	Chepang	slash and burn agriculture	Nepal	https://doi.org/10.1371%2Fjournal.pbio.2005398
+mephaa1	Me’Phaa	subsistence farming / wild plants and animals	Mexico	https://doi.org/10.3390%2Fmicroorganisms8101592
+mephaa2	Me’Phaa	subsistence farming / wild plants and animals	Mexico	https://doi.org/10.3390%2Fmicroorganisms8101593
+mephaa3	Me’Phaa	subsistence farming / wild plants and animals	Mexico	https://doi.org/10.3390%2Fmicroorganisms8101594
+chepang1	Chepang	slash and burn agriculture / wild plants and animals	Nepal	https://doi.org/10.1371%2Fjournal.pbio.2005396
+chepang2	Chepang	slash and burn agriculture / wild plants and animals	Nepal	https://doi.org/10.1371%2Fjournal.pbio.2005397
+chepang3	Chepang	slash and burn agriculture / wild plants and animals	Nepal	https://doi.org/10.1371%2Fjournal.pbio.2005398
