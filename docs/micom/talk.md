@@ -203,15 +203,14 @@ Why is this so hard? Can't we just maximize the community growth rate? Well...
 
 <img src="assets/ctFBA.png" width="60%">
 
+Note:
+
+In practice, getting a community-wide growth rate using classic FBA doesn't work very well. While we can use FBA to calculate the maximal community growth rate, it doesn't return a unique solution, and it will include solutions in which the growth rate for some individual taxa is zero, while some really fast growers will have a high growth rate. This isn't good, since this introduces a lot of ambiguity and increases the size of the flux cone to include non-biologically relevant solutions. To overcome this, MICOM uses L2 regularization, wherein the optimal solution that minimizes the sum of the squares of the individual growth rates is found. This reduces the space of the optimal solutions to just one rather than infinity, and returns a solution of growth rates that is non-zero for all taxa present in the sample, smoothing out growth between members of the community. Thinking biologically, though, it is intuitive that for every bacteria in a community to be able to grow, optimal growth rate might not be acheieved. We can use the cooperative tradeoff to set the minimum fraction of the optimal growth rate we want to achieve, allowing all the taxa to grow in a biologically relevant manner.
+
 ---
 
 *Cooperative Tradeoff FBA* allows us to treat metagenome-scale models with the *same*
 methods as genome-scale metabolic models (pFBA, minimal media, etc).
-
-
-Note:
-
-In practice, getting a community-wide growth rate using classic FBA doesn't work very well. While we can use FBA to calculate the maximal community growth rate, it doesn't return a unique solution, and it will include solutions in which the growth rate for some individual taxa is zero, while some really fast growers will have a high growth rate. This isn't good, since this introduces a lot of ambiguity and increases the size of the flux cone to include non-biologically relevant solutions. To overcome this, MICOM uses L2 regularization, wherein the optimal solution that minimizes the sum of the squares of the individual growth rates is found. This reduces the space of the optimal solutions to just one rather than infinity, and returns a solution of growth rates that is non-zero for all taxa present in the sample, smoothing out growth between members of the community. Thinking biologically, though, it is intuitive that for every bacteria in a community to be able to grow, optimal growth rate might not be acheieved. We can use the cooperative tradeoff to set the minimum fraction of the optimal growth rate we want to achieve, allowing all the taxa to grow in a biologically relevant manner.
 
 ---
 
