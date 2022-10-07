@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taxa niche/production overlap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@5.15.0/dist/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.9.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.2.1"></script>
+
+    <style>
+    #vis {
+        width: 100%;
+        margin: 1em;
+        display: block;
+    }
+    </style>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Taxa niche/production overlap
+      </h1>
+      <p class="subtitle">
+        Each point denotes the reduced import/export fluxes for a single taxon
+        in a single sample. If two points are close to each other they consume
+        (for direction="import") or produce (for direction="export") the same
+        metabolites.<br>
+        Hover over each point to see its annotations. You can click a point
+        to select only that taxon. Click on an empty part of the plot to
+        reset the selection.<br>
+        Use the "..." menu in the
+        upper right hand side to export the plot into various formats.
+      </p>
+    </div>
+    <!-- Container for the visualization -->
+    <div class="container">
+    <div id="vis"></div>
+    <a href="#" class="button is-primary" onclick="download_data('reduced')">Download as CSV...</a>
+
+    </div>
+    <script>
+      // Assign the specification to a local variable vlSpec.
+      var vlSpec = {
+        $schema: "https://vega.github.io/schema/vega-lite/v4.json",
+        width: 600,
+        height: 500,
+        data: {
+            values: [{"sample_id":"chepang1","taxon":"Catenibacterium","TSNE 1":13.4146986008,"TSNE 2":-6.234266758},{"sample_id":"chepang1","taxon":"Phascolarctobacterium","TSNE 1":-2.6052286625,"TSNE 2":18.3274898529},{"sample_id":"chepang1","taxon":"Prevotella","TSNE 1":-32.4132385254,"TSNE 2":20.8175582886},{"sample_id":"chepang1","taxon":"Succinivibrio","TSNE 1":2.6342918873,"TSNE 2":21.3403778076},{"sample_id":"chepang2","taxon":"Faecalibacterium","TSNE 1":18.2911834717,"TSNE 2":-10.23848629},{"sample_id":"chepang2","taxon":"Prevotella","TSNE 1":-32.8959159851,"TSNE 2":20.0635967255},{"sample_id":"chepang2","taxon":"Roseburia","TSNE 1":38.5032730103,"TSNE 2":-3.7860336304},{"sample_id":"chepang2","taxon":"Succinivibrio","TSNE 1":1.7814667225,"TSNE 2":21.1946659088},{"sample_id":"chepang3","taxon":"Bacteroides","TSNE 1":35.1690864563,"TSNE 2":-8.6732769012},{"sample_id":"chepang3","taxon":"Clostridium","TSNE 1":30.9089012146,"TSNE 2":-18.5617733002},{"sample_id":"chepang3","taxon":"Faecalibacterium","TSNE 1":13.8356266022,"TSNE 2":-9.3089151382},{"sample_id":"chepang3","taxon":"Holdemanella","TSNE 1":-1.3971928358,"TSNE 2":-1.6690751314},{"sample_id":"chepang3","taxon":"Phocaeicola","TSNE 1":17.3012504578,"TSNE 2":-7.1303086281},{"sample_id":"chepang3","taxon":"Prevotella","TSNE 1":-2.6297533512,"TSNE 2":10.0322036743},{"sample_id":"chepang3","taxon":"Roseburia","TSNE 1":28.9104061127,"TSNE 2":-11.8465137482},{"sample_id":"chepang3","taxon":"Ruminococcus","TSNE 1":8.7286396027,"TSNE 2":-25.7835426331},{"sample_id":"hadza1","taxon":"Anaerobutyricum","TSNE 1":-5.7571773529,"TSNE 2":9.6128807068},{"sample_id":"hadza1","taxon":"Blautia","TSNE 1":-10.6580944061,"TSNE 2":1.984038353},{"sample_id":"hadza1","taxon":"Bulleidia","TSNE 1":-30.8506259918,"TSNE 2":13.6282215118},{"sample_id":"hadza1","taxon":"Clostridium","TSNE 1":-31.1968975067,"TSNE 2":22.4600772858},{"sample_id":"hadza1","taxon":"Dorea","TSNE 1":-5.9706468582,"TSNE 2":5.9250950813},{"sample_id":"hadza1","taxon":"Faecalibacterium","TSNE 1":-16.1888141632,"TSNE 2":-4.4753036499},{"sample_id":"hadza1","taxon":"Holdemanella","TSNE 1":3.9047195911,"TSNE 2":-6.3813323975},{"sample_id":"hadza1","taxon":"Mediterraneibacter","TSNE 1":-16.7189865112,"TSNE 2":-3.8135340214},{"sample_id":"hadza1","taxon":"Prevotella","TSNE 1":31.5690479279,"TSNE 2":-8.6525096893},{"sample_id":"hadza2","taxon":"Anaerobutyricum","TSNE 1":-26.2183418274,"TSNE 2":12.0444374084},{"sample_id":"hadza2","taxon":"Anaerostipes","TSNE 1":-3.6471705437,"TSNE 2":-5.0761213303},{"sample_id":"hadza2","taxon":"Blautia","TSNE 1":-26.9637737274,"TSNE 2":9.0193719864},{"sample_id":"hadza2","taxon":"Catenibacterium","TSNE 1":-0.2746160626,"TSNE 2":-6.1234540939},{"sample_id":"hadza2","taxon":"Clostridium","TSNE 1":30.4783287048,"TSNE 2":-16.0524940491},{"sample_id":"hadza2","taxon":"Collinsella","TSNE 1":32.0947914124,"TSNE 2":-11.5048999786},{"sample_id":"hadza2","taxon":"Dorea","TSNE 1":-6.1469435692,"TSNE 2":4.0418958664},{"sample_id":"hadza2","taxon":"Faecalibacterium","TSNE 1":-36.0856933594,"TSNE 2":14.1261701584},{"sample_id":"hadza2","taxon":"Holdemanella","TSNE 1":0.5657349825,"TSNE 2":-2.6478028297},{"sample_id":"hadza2","taxon":"Intestinibacter","TSNE 1":-5.5134143829,"TSNE 2":12.6206922531},{"sample_id":"hadza2","taxon":"Lachnospira","TSNE 1":-24.7462863922,"TSNE 2":11.0280542374},{"sample_id":"hadza2","taxon":"Mediterraneibacter","TSNE 1":-13.4887514114,"TSNE 2":6.1291007996},{"sample_id":"hadza2","taxon":"Prevotella","TSNE 1":-9.4874105453,"TSNE 2":-12.3080348969},{"sample_id":"hadza2","taxon":"Roseburia","TSNE 1":30.6214847565,"TSNE 2":-10.6548624039},{"sample_id":"hadza2","taxon":"Ruminococcus","TSNE 1":36.3807640076,"TSNE 2":-6.9002389908},{"sample_id":"hadza2","taxon":"Terrisporobacter","TSNE 1":-23.3736534119,"TSNE 2":10.8350334167},{"sample_id":"hadza3","taxon":"Anaerobutyricum","TSNE 1":-26.0970840454,"TSNE 2":13.2561941147},{"sample_id":"hadza3","taxon":"Blautia","TSNE 1":-28.5634002686,"TSNE 2":7.9836668968},{"sample_id":"hadza3","taxon":"Bulleidia","TSNE 1":-31.875459671,"TSNE 2":13.7251567841},{"sample_id":"hadza3","taxon":"Butyrivibrio","TSNE 1":-7.3074808121,"TSNE 2":8.1356163025},{"sample_id":"hadza3","taxon":"Clostridium","TSNE 1":-22.4853610992,"TSNE 2":21.8166255951},{"sample_id":"hadza3","taxon":"Faecalibacterium","TSNE 1":-37.1740493774,"TSNE 2":14.9449214935},{"sample_id":"hadza3","taxon":"Holdemanella","TSNE 1":2.5915446281,"TSNE 2":-5.0945119858},{"sample_id":"hadza3","taxon":"Mediterraneibacter","TSNE 1":-20.4526672363,"TSNE 2":10.0822610855},{"sample_id":"hadza3","taxon":"Prevotella","TSNE 1":-19.9625873566,"TSNE 2":12.9273042679},{"sample_id":"hadza3","taxon":"Roseburia","TSNE 1":-8.6217184067,"TSNE 2":-12.3658838272},{"sample_id":"hadza3","taxon":"Ruminococcus","TSNE 1":39.5741348267,"TSNE 2":-4.324701786},{"sample_id":"mephaa1","taxon":"Blautia","TSNE 1":-10.3162488937,"TSNE 2":3.7065346241},{"sample_id":"mephaa1","taxon":"Catenibacterium","TSNE 1":-1.6207842827,"TSNE 2":-4.6314725876},{"sample_id":"mephaa1","taxon":"Clostridium","TSNE 1":-21.6433963776,"TSNE 2":22.0570240021},{"sample_id":"mephaa1","taxon":"Dialister","TSNE 1":0.4726665318,"TSNE 2":7.276992321},{"sample_id":"mephaa1","taxon":"Faecalibacterium","TSNE 1":-34.8741722107,"TSNE 2":13.4338331223},{"sample_id":"mephaa1","taxon":"Holdemanella","TSNE 1":-0.7461584806,"TSNE 2":-2.7865667343},{"sample_id":"mephaa1","taxon":"Mediterraneibacter","TSNE 1":-12.1456680298,"TSNE 2":5.2805862427},{"sample_id":"mephaa1","taxon":"Methanobrevibacter","TSNE 1":-6.7900114059,"TSNE 2":14.259926796},{"sample_id":"mephaa1","taxon":"Phascolarctobacterium","TSNE 1":-2.7490928173,"TSNE 2":17.3361740112},{"sample_id":"mephaa1","taxon":"Prevotella","TSNE 1":-17.6881523132,"TSNE 2":14.4533863068},{"sample_id":"mephaa1","taxon":"Streptococcus","TSNE 1":36.8626785278,"TSNE 2":-6.0233435631},{"sample_id":"mephaa2","taxon":"Dialister","TSNE 1":-0.6874821782,"TSNE 2":5.5607151985},{"sample_id":"mephaa2","taxon":"Faecalibacterium","TSNE 1":16.4714736938,"TSNE 2":-9.059709549},{"sample_id":"mephaa2","taxon":"Haemophilus","TSNE 1":7.6659340858,"TSNE 2":-25.3543357849},{"sample_id":"mephaa2","taxon":"Prevotella","TSNE 1":-13.177031517,"TSNE 2":15.248090744},{"sample_id":"mephaa2","taxon":"Roseburia","TSNE 1":30.5023555756,"TSNE 2":-12.5589036942},{"sample_id":"mephaa2","taxon":"Streptococcus","TSNE 1":10.9654541016,"TSNE 2":-26.0003814697},{"sample_id":"mephaa2","taxon":"Succinivibrio","TSNE 1":-5.2990221977,"TSNE 2":7.504878521},{"sample_id":"mephaa3","taxon":"Clostridium","TSNE 1":31.5142631531,"TSNE 2":-19.6478118896},{"sample_id":"mephaa3","taxon":"Dialister","TSNE 1":0.0381179042,"TSNE 2":3.9585952759},{"sample_id":"mephaa3","taxon":"Faecalibacterium","TSNE 1":15.2045965195,"TSNE 2":-8.4697761536},{"sample_id":"mephaa3","taxon":"Prevotella","TSNE 1":-14.0482378006,"TSNE 2":15.1860074997},{"sample_id":"mephaa3","taxon":"Roseburia","TSNE 1":29.5951347351,"TSNE 2":-13.4013118744},{"sample_id":"mephaa3","taxon":"Streptococcus","TSNE 1":10.5812625885,"TSNE 2":-26.9542198181},{"sample_id":"mephaa3","taxon":"Succinivibrio","TSNE 1":-4.6515250206,"TSNE 2":8.4908571243}]
+        },
+        selection: {"pts": {"type": "single", "fields": ["taxon"]}},
+        mark: {
+            type: "point",
+            filled: true,
+            size: 20,
+            tooltip: {content: "data"}
+        },
+        encoding: {
+          x: {
+            field: "TSNE 1",
+            type: "quantitative",
+            scale: {zero: false}
+          },
+          y: {
+            field: "TSNE 2",
+            type: "quantitative",
+            scale: {zero: false}
+          },
+          color: {
+            condition: {
+              selection: "pts",
+              field: "taxon",
+              type: "nominal"
+            },
+            value: "lightgrey"
+          },
+          opacity: {
+              condition: {
+                  selection: "pts",
+                  value: 0.8
+              },
+              value: 0.2
+          }
+        }
+      };
+
+      // Embed the visualization in the container with id `vis`
+      vegaEmbed("#vis", vlSpec, {renderer: "svg"}).then(function(r) {
+        svg = d3.select("#vis svg");
+        svg.attr("width", "100%").attr("height", "auto");
+      });
+
+      files = {'reduced': 'sample_id,taxon,TSNE 1,TSNE 2\nchepang1,Catenibacterium,13.414699,-6.2342668\nchepang1,Phascolarctobacterium,-2.6052287,18.32749\nchepang1,Prevotella,-32.41324,20.817558\nchepang1,Succinivibrio,2.634292,21.340378\nchepang2,Faecalibacterium,18.291183,-10.238486\nchepang2,Prevotella,-32.895916,20.063597\nchepang2,Roseburia,38.503273,-3.7860336\nchepang2,Succinivibrio,1.7814667,21.194666\nchepang3,Bacteroides,35.169086,-8.673277\nchepang3,Clostridium,30.908901,-18.561773\nchepang3,Faecalibacterium,13.835627,-9.308915\nchepang3,Holdemanella,-1.3971928,-1.6690751\nchepang3,Phocaeicola,17.30125,-7.1303086\nchepang3,Prevotella,-2.6297534,10.032204\nchepang3,Roseburia,28.910406,-11.846514\nchepang3,Ruminococcus,8.72864,-25.783543\nhadza1,Anaerobutyricum,-5.7571774,9.612881\nhadza1,Blautia,-10.658094,1.9840384\nhadza1,Bulleidia,-30.850626,13.6282215\nhadza1,Clostridium,-31.196898,22.460077\nhadza1,Dorea,-5.970647,5.925095\nhadza1,Faecalibacterium,-16.188814,-4.4753036\nhadza1,Holdemanella,3.9047196,-6.3813324\nhadza1,Mediterraneibacter,-16.718987,-3.813534\nhadza1,Prevotella,31.569048,-8.65251\nhadza2,Anaerobutyricum,-26.218342,12.044437\nhadza2,Anaerostipes,-3.6471705,-5.0761213\nhadza2,Blautia,-26.963774,9.019372\nhadza2,Catenibacterium,-0.27461606,-6.123454\nhadza2,Clostridium,30.478329,-16.052494\nhadza2,Collinsella,32.09479,-11.5049\nhadza2,Dorea,-6.1469436,4.041896\nhadza2,Faecalibacterium,-36.085693,14.12617\nhadza2,Holdemanella,0.565735,-2.6478028\nhadza2,Intestinibacter,-5.5134144,12.620692\nhadza2,Lachnospira,-24.746286,11.028054\nhadza2,Mediterraneibacter,-13.488751,6.129101\nhadza2,Prevotella,-9.487411,-12.308035\nhadza2,Roseburia,30.621485,-10.654862\nhadza2,Ruminococcus,36.380764,-6.900239\nhadza2,Terrisporobacter,-23.373653,10.835033\nhadza3,Anaerobutyricum,-26.097084,13.256194\nhadza3,Blautia,-28.5634,7.983667\nhadza3,Bulleidia,-31.87546,13.725157\nhadza3,Butyrivibrio,-7.307481,8.135616\nhadza3,Clostridium,-22.485361,21.816626\nhadza3,Faecalibacterium,-37.17405,14.9449215\nhadza3,Holdemanella,2.5915446,-5.094512\nhadza3,Mediterraneibacter,-20.452667,10.082261\nhadza3,Prevotella,-19.962587,12.927304\nhadza3,Roseburia,-8.621718,-12.365884\nhadza3,Ruminococcus,39.574135,-4.324702\nmephaa1,Blautia,-10.316249,3.7065346\nmephaa1,Catenibacterium,-1.6207843,-4.6314726\nmephaa1,Clostridium,-21.643396,22.057024\nmephaa1,Dialister,0.47266653,7.2769923\nmephaa1,Faecalibacterium,-34.874172,13.433833\nmephaa1,Holdemanella,-0.7461585,-2.7865667\nmephaa1,Mediterraneibacter,-12.145668,5.2805862\nmephaa1,Methanobrevibacter,-6.7900114,14.259927\nmephaa1,Phascolarctobacterium,-2.7490928,17.336174\nmephaa1,Prevotella,-17.688152,14.453386\nmephaa1,Streptococcus,36.86268,-6.0233436\nmephaa2,Dialister,-0.6874822,5.560715\nmephaa2,Faecalibacterium,16.471474,-9.05971\nmephaa2,Haemophilus,7.665934,-25.354336\nmephaa2,Prevotella,-13.1770315,15.248091\nmephaa2,Roseburia,30.502356,-12.558904\nmephaa2,Streptococcus,10.965454,-26.000381\nmephaa2,Succinivibrio,-5.299022,7.5048785\nmephaa3,Clostridium,31.514263,-19.647812\nmephaa3,Dialister,0.038117904,3.9585953\nmephaa3,Faecalibacterium,15.2045965,-8.469776\nmephaa3,Prevotella,-14.048238,15.1860075\nmephaa3,Roseburia,29.595135,-13.401312\nmephaa3,Streptococcus,10.581263,-26.95422\nmephaa3,Succinivibrio,-4.651525,8.490857\n'};
+
+function download_data(key) {
+    var blob = new Blob([files[key]], {type: "text/csv;charset=utf-8;"}),
+        filename = key + ".csv",
+        url = window.URL.createObjectURL(blob);
+    if (navigator.msSaveBlob) { // IE 10+
+        navigator.msSaveBlob(blob, filename);
+    } else {
+        var link = document.createElement("a");
+        if (link.download !== undefined) { // feature detection
+            // Browsers that support HTML5 download attribute
+            var url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", filename);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    }
+}
+    </script>
+  </section>
+  </body>
+</html>
