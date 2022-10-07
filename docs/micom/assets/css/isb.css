@@ -300,6 +300,7 @@ body {
 .reveal .sidebar {
   position: relative;
   width: 5vw;
+  min-width: 70px;
   height: 100%;
   max-height: 100%;
   margin: 0;
@@ -388,8 +389,8 @@ section.has-dark-background, section.dark {
   width: calc(100% - 6vw); }
 
 .reveal .reveal-toolbar {
-  left: 1vw !important;
-  width: 4vw;
+  left: 6px !important;
+  width: 50px;
   z-index: 2;
 }
 
@@ -406,6 +407,9 @@ html.print-pdf .reveal .slides  section {
 @media screen and (max-width: 1024px) {
   .reveal .sidebar {
     display: none; }
+  .reveal .reveal-toolbar {
+    display: none;
+   }
   .reveal .slides {
     margin-left: 1vw;
     margin-right: 1vw; }
