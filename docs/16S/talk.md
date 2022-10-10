@@ -213,7 +213,7 @@ The 16S gene is *universal* and contains interspersed conserved regions perfect 
 
 <!-- .slide: data-background="assets/hu-chen-tanzania.jpg" class="dark" -->
 
-# Our study data
+# The data set
 
 <div style="height: 33vh"></div>
 
@@ -243,13 +243,15 @@ RJ Abdill et al., https://doi.org/10.1371/journal.pbio.3001536
 Note:
 
 - not really, many populations are not represented
+- where the $/institutions/research teams are based
+- institutionalized biases
 - heavily skewed towards populations from a few countries
 - this propagates to reference databases, functional annotations, etc.
 - see the symposium talks for a much more thorough discussion
 
 ---
 
-## Who are we studying?
+## Who is studying who?
 
 <img src="assets/sample_sources.png" width="80%">
 
@@ -268,9 +270,22 @@ Photos by Ben Preater, Giuseppe Mondi, Daniel Apodaca.
 </div>
 
 Note:
-
 - variety of cultures and lifestyles
 - distinct geographic regions
+
+Though all of those manuscripts studied indigenous marginalized communities, none of them were led by members of the community and were often conducted by non-native institutions. Thus, the fact that indigenous communities were studied does not necessarily mean that the interests of the community were represented.
+
+---
+
+<img src="assets/social_equity.png" width="90%">
+
+<div class="footnote">
+
+courtesy of E. Wissel and S. Ishaq<br>
+https://doi.org/10.1128/mSystems.00471-21<br>
+https://doi.org/10.1128/msystems.01240-21
+
+</div>
 
 ---
 
