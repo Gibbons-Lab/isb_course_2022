@@ -253,7 +253,7 @@ Note:
 
 <img src="assets/sample_sources.png" width="80%">
 
-9 samples from 3 native populations
+9 samples from 3 indigenous populations
 
 - [Hadza in Tanzania](https://www.science.org/doi/10.1126/science.aan4834)
 - [Me'Phaa in Mexico](https://pubmed.ncbi.nlm.nih.gov/33081076/)
