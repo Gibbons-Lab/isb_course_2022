@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - rich
+  - seaborn
+  - wget
+  - pip:
+    - empress
