@@ -517,9 +517,8 @@ Is there phylogenetic diversity between *taxa* from different populations?
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
 
-*ISB team* <br>
-Dominic Lewis <br>
-Allison Kudla <br>
+<div>
+
 Christian Diener <br>
 Nick Bohmann <br>
 Sean Gibbons <br>
@@ -529,12 +528,23 @@ Alex Carr <br>
 Noa Rappaport <br>
 Samantha Piekos <br>
 James Johnson <br>
-Kathryn Stephenson <br>
-Audri Hubbard <br>
-Joe Myxter <br>
-Thea Swanson
-
-# Thanks!
+Kathryn Stephenson
 
 </div>
+
+<div>
+Dominic Lewis <br>
+Allison Kudla <br>
+Audri Hubbard <br>
+Joe Myxter <br>
+Thea Swanson <br>
+Victoria Uhl<br>
+Connor Kelly<br>
+Shanna Braga<br>
+ISB Facilities Team
+
+</div></div>
+<br>
+
+# Thanks! :heart:
 
