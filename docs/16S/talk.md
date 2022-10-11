@@ -255,11 +255,16 @@ Note:
 
 <img src="assets/sample_sources.png" width="80%">
 
-9 samples from 3 indigenous populations
+- [Hadza in Tanzania](https://www.science.org/doi/10.1126/science.aan4834) - 3 samples<br>
+  Hunter-gatherer ethnic group living in northern Tanzania. Obtain food exclusively through
+  hunting and foraging edible plants.
+- [Chepang in Nepal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237292/) - 3 samples<br>
+  Tibeto-Bhurman ethnic group living in the Mahabharat mountain range. Have recently transitioned
+  from a semi-nomadic lifestyle to a more settled lifestyle.
+- [Me'Phaa in Mexico](https://pubmed.ncbi.nlm.nih.gov/33081076/) - 3 samples<br>
+  Also known as Tlapanec, live in the mountains of Guerrero state.
+  Subsist primarily upon maize, beans, and chili peppers that they grow themselves.
 
-- [Hadza in Tanzania](https://www.science.org/doi/10.1126/science.aan4834)
-- [Me'Phaa in Mexico](https://pubmed.ncbi.nlm.nih.gov/33081076/)
-- [Chepang in Nepal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237292/)
 
 <br><br>
 
