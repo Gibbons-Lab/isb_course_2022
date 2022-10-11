@@ -273,7 +273,7 @@ Note:
 - variety of cultures and lifestyles
 - distinct geographic regions
 
-Though all of those manuscripts studied indigenous marginalized communities, none of them were led by members of the community and were often conducted by non-native institutions. Thus, the fact that indigenous communities were studied does not necessarily mean that the interests of the community were represented.
+Though all of those manuscripts studied indigenous marginalized communities, none of them were led by members of the community and were often conducted by foreign institutions. Thus, the fact that indigenous communities were studied does not necessarily mean that the interests of the community were represented.
 
 ---
 
@@ -281,7 +281,8 @@ Though all of those manuscripts studied indigenous marginalized communities, non
 
 <div class="footnote">
 
-courtesy of E. Wissel and S. Ishaq<br>
+figure and content courtesy of [Emily Wissel](https://emilywissel.weebly.com/)<br>
+Also check out the [Microbes and Social Equity Working group](https://sueishaqlab.org/microbes-and-social-equity-working-group/)<br>
 https://doi.org/10.1128/mSystems.00471-21<br>
 https://doi.org/10.1128/msystems.01240-21
 
