@@ -49,7 +49,7 @@ Note:
 
 <br>
 
-<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2022/blob/main/16S.ipynb"
+<a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2022/blob/main/16S_2022.ipynb"
    target="_blank">Click me to open the notebook!</a>
 
 ---
