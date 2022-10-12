@@ -39,6 +39,15 @@ Let's get the slides first (use your computer, phone, TV, fridge)
 
 ---
 
+<!-- .slide: data-background="var(--primary)" class="dark" -->
+
+## Let's set up our Notebook!
+
+:computer: Let's switch to the notebook
+
+
+---
+
 # Functional analyses
 
 Tries to predict what the microbiome *does* from sequencing data.
@@ -241,6 +250,15 @@ Well, metagenome-scale models are slightly larger... :sweat:
 
 <img src="assets/model_gephi.png" width="90%">
 
+
+---
+
+<!-- .slide: data-background="var(--primary)" class="dark" -->
+
+## Let's return to the models we've built
+
+:computer: Let's switch to the notebook!
+
 ---
 <!-- .slide: data-background="var(--primary)" class="dark" -->
 
@@ -293,6 +311,15 @@ Note:
 To use a medium for a growth simulation in MICOM, the medium must be componetized, that is, described by its constituent metabolic components. This is a laborious task, as it requires determining the consitutents of various food components present in a diet, and adding them in the proper amounts. For diets of highly represented groups in microbiome research, such as North American or European diets, componetized media are publically available. However, it is difficult to find pre-constructed componetized media representative of the diet of underrepresented groups, like the three indigenous populations for whom we are building metabolic models today. For instance, baobab fruit is a common component in the Hadza diet, but it is not present in commmonly used food databases, which provide constituent components, so further investigation was required.
 
 ---
+## What's in the media?
+- [Hadza in Tanzania](https://www.science.org/doi/10.1126/science.aan4834) - <br> 
+  Baobab fruit & seeds, honey, antelope
+- [Chepang in Nepal](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237292/) - <br>
+  Nettles, mountain yam, cowpea
+- [Me'Phaa in Mexico](https://pubmed.ncbi.nlm.nih.gov/33081076/) - <br>
+  Corn, beans, chayote, chicken
+---
+
 ## Medium Construction
 
 <img src="assets/medium.png" width="80%">
@@ -310,6 +337,14 @@ To construct the matched media we will use for modeling the growth of the microb
 Note:
 
 Let's take a peak at the results of our growth simulation, and see what insights we can glean from them. First, lets go over what the results will look like.
+
+---
+
+## Growth Rates
+
+Visualize growth rates of individual taxa per sample
+
+<img src="assets/growth_rates.png" width="100%">
 
 ---
 
