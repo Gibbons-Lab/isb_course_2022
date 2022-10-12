@@ -346,7 +346,7 @@ Let's take a peak at the results of our growth simulation, and see what insights
 
 Visualize growth rates of individual taxa per sample
 
-<img src="assets/growthrates.png" width="100%">
+<img src="assets/growthrates.png" width="50%">
 
 ---
 
@@ -354,7 +354,7 @@ Visualize growth rates of individual taxa per sample
 
 The context-dependent way in which a microbial taxon uses its environment
 
-<img src="assets/niches.png" width="100%">
+<img src="assets/niches.png" width="75%">
 
 
 Note:
