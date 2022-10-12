@@ -57,6 +57,9 @@ The following content is not publically available and is *not* covered under the
 - Everything in the `docs/*/assets/isb` folders.<br>
   Those are images relating to the Institute for Systems Biology identity like backgrounds and logos
   that are licensed exclusively to the Institute for Systems Biology, Seattle, WA, USA.
+- Everything annotated as having been generated with Biorender. This artworks is licensed under the [terms of the Biorender license](https://biorender.com/academic-license/).
+
+If a particular creator is mentioned in the images please retain this attribution in derived materials.
 
 # FAQ
 
