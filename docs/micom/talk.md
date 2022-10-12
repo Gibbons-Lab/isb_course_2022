@@ -273,7 +273,7 @@ Well, metagenome-scale models are slightly larger... :sweat:
 
 <div class="footnote">
 
-https://doi.org/10.1371/journal.pbio.3001536
+RJ Abdill et al., https://doi.org/10.1371/journal.pbio.3001536
 
 Note:
 
@@ -311,6 +311,7 @@ Note:
 To use a medium for a growth simulation in MICOM, the medium must be componetized, that is, described by its constituent metabolic components. This is a laborious task, as it requires determining the consitutents of various food components present in a diet, and adding them in the proper amounts. For diets of highly represented groups in microbiome research, such as North American or European diets, componetized media are publically available. However, it is difficult to find pre-constructed componetized media representative of the diet of underrepresented groups, like the three indigenous populations for whom we are building metabolic models today. For instance, baobab fruit is a common component in the Hadza diet, but it is not present in commmonly used food databases, which provide constituent components, so further investigation was required.
 
 ---
+
 ## What's in the media?
 - [Hadza in Tanzania](https://www.science.org/doi/10.1126/science.aan4834) - <br> 
   Baobab fruit & seeds, honey, antelope
@@ -318,6 +319,7 @@ To use a medium for a growth simulation in MICOM, the medium must be componetize
   Nettles, mountain yam, cowpea
 - [Me'Phaa in Mexico](https://pubmed.ncbi.nlm.nih.gov/33081076/) - <br>
   Corn, beans, chayote, chicken
+  
 ---
 
 ## Medium Construction
@@ -344,7 +346,7 @@ Let's take a peak at the results of our growth simulation, and see what insights
 
 Visualize growth rates of individual taxa per sample
 
-<img src="assets/growth_rates.png" width="100%">
+<img src="assets/growthrates.png" width="100%">
 
 ---
 
@@ -352,7 +354,7 @@ Visualize growth rates of individual taxa per sample
 
 The context-dependent way in which a microbial taxon uses its environment
 
-<img src="assets/fig4.png" width="100%">
+<img src="assets/niches.png" width="100%">
 
 
 Note:
