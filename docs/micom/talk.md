@@ -43,8 +43,7 @@ Before we get started, let's make sure you're set up with the course notes. You 
 
 Note: 
 
-As a reminder, as with yesterday, this course will be taught across three modules. The presentation slides we're currently looking at will contain explanations of the logic and methods used in the course, as well as links to pertinent materials related to the material included in the course. The analysis and modeling, as well as visualizations of results, will take place in the course notebook, hosted in Google Collab. You can navigate to the notebook using the link at the bottom of the screen, or from the email sent to you before the course. Finally, the Slack chat is available to you at any time during the course for questions or comments. So if you have any questions, don't hesitate to post them there and the TAs will be happy to help you out. Before we jump into the material, let's follow the link to the notebook and familiarize ourselves over there. 
-
+As a reminder, as with yesterday, this course will be taught across three modules. The presentation slides we're currently looking at will contain explanations of the logic and methods used in the course, as well as links to pertinent materials related to the material included in the course. The analysis and modeling, as well as visualizations of results, will take place in the course notebook, hosted in Google Collab. You can navigate to the notebook using the link on the next slide, or from the email sent to you before the course. Finally, the Slack chat is available to you at any time during the course for questions or comments. So if you have any questions, don't hesitate to post them there and the TAs will be happy to help you out. 
 
 ---
 
@@ -58,6 +57,10 @@ As a reminder, as with yesterday, this course will be taught across three module
 
 <a href="https://colab.research.google.com/github/gibbons-lab/isb_course_2022/blob/master/micom.ipynb"
    target="_blank">Click me to open the notebook!</a>
+
+Note: 
+
+Before we jump into the material, let's follow the link to the notebook and familiarize ourselves over there. 
 
 ---
 
