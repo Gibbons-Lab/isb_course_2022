@@ -31,7 +31,7 @@ if len(sys.argv) == 2:
 else:
     version = "2022.8"
 
-if (float(v) for v in version.split(".")) < (2021, 4):
+if tuple(float(v) for v in version.split(".")) < (2021, 4):
     pyver = "36"
 else:
     pyver = "38"
